@@ -1,0 +1,389 @@
+DEBUG (10): node:10 	 UX: 12 	 UY: 12 
+ 			 Harvesting Rate:2
+ 			 Type:10
+DEBUG (8): node:8 	 UX: 12 	 UY: 14 
+ 			 Harvesting Rate:5
+ 			 Type:10
+DEBUG (6): node:6 	 UX: 10 	 UY: 16 
+ 			 Harvesting Rate:2
+ 			 Type:10
+DEBUG (4): node:4 	 UX: 8 	 UY: 14 
+ 			 Harvesting Rate:1
+ 			 Type:10
+DEBUG (2): node:2 	 UX: 8 	 UY: 12 
+ 			 Harvesting Rate:3
+ 			 Type:10
+DEBUG (1): node:1 	 UX: 10 	 UY: 13 
+ 			 Harvesting Rate:2
+ 			 Type:1
+DEBUG (0): node:0 	 UX: 10 	 UY: 10 
+ 			 Harvesting Rate:1
+ 			 Type:0
+DEBUG (0): REP message received from 1
+DEBUG (0): REP message received from 2
+DEBUG (0): REP message received from 10
+DEBUG (1): REP message received from 6
+DEBUG (1): REP message received from 8
+DEBUG (1): REP message received from 2
+DEBUG (1): REP message received from 4
+DEBUG (1): REP message received from 10
+DEBUG (1): REP message received from 0
+DEBUG (2): REP message received from 1
+DEBUG (2): REP message received from 0
+DEBUG (2): REP message received from 4
+DEBUG (4): REP message received from 1
+DEBUG (4): REP message received from 2
+DEBUG (6): REP message received from 1
+DEBUG (8): REP message received from 1
+DEBUG (10): REP message received from 1
+DEBUG (10): REP message received from 0
+DEBUG (0): Next Geo hop is: 0
+DEBUG (1): Node: 6, u = 16, v = 3, w = 13, x = 169, y = 169, z = 14, zz = 14
+DEBUG (1): Node: 8, u = 14, v = 3, w = 11, x = 121, y = 121, z = 14, zz = 10
+DEBUG (1): Node: 2, u = 12, v = 3, w = 9, x = 81, y = 81, z = 10, zz = 12
+DEBUG (1): Node: 4, u = 14, v = 3, w = 11, x = 121, y = 121, z = 10, zz = 12
+DEBUG (1): Node: 10, u = 12, v = 3, w = 9, x = 81, y = 81, z = 10, zz = 9
+DEBUG (1): Node: 0, u = 10, v = 3, w = 7, x = 49, y = 49, z = 9, zz = 4
+DEBUG (1): Next Geo hop is: 0
+DEBUG (0): Message Received from 1 of 1
+DEBUG (0): 		No.0 ID:6 USED:1 X:10 Y:16
+DEBUG (0): 		No.1 ID:8 USED:1 X:12 Y:14
+DEBUG (0): 		No.2 ID:2 USED:1 X:8 Y:12
+DEBUG (0): 		No.3 ID:4 USED:1 X:8 Y:14
+DEBUG (0): 		No.4 ID:10 USED:1 X:12 Y:12
+DEBUG (0): 		No.5 ID:0 USED:1 X:10 Y:10
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.10 ID:0 USED:6 X:4 Y:0
+DEBUG (0): 		No.10 ID:10 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.166 ID:0 USED:0 X:0 Y:1
+DEBUG (0): 		No.0 ID:0 USED:1 X:1 Y:6
+DEBUG (0): 		No.0 ID:0 USED:6 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:8 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:2 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:4 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:10 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:166 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (2): Node: 1, u = 13, v = 3, w = 10, x = 100, y = 100, z = 12, zz = 9
+DEBUG (2): Node: 0, u = 10, v = 3, w = 7, x = 49, y = 49, z = 9, zz = 12
+DEBUG (2): Node: 4, u = 14, v = 3, w = 11, x = 121, y = 121, z = 9, zz = 4
+DEBUG (2): Next Geo hop is: 0
+DEBUG (0): Message Received from 2 of 2
+DEBUG (0): 		No.0 ID:1 USED:1 X:10 Y:13
+DEBUG (0): 		No.1 ID:0 USED:1 X:10 Y:10
+DEBUG (0): 		No.2 ID:4 USED:1 X:8 Y:14
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:2 USED:7 X:6 Y:2
+DEBUG (0): 		No.2 ID:3 USED:0 X:0 Y:1
+DEBUG (0): 		No.0 ID:0 USED:13 X:1 Y:0
+DEBUG (0): 		No.0 ID:0 USED:10 X:2 Y:4
+DEBUG (0): 		No.0 ID:0 USED:14 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.166 ID:0 USED:0 X:0 Y:1
+DEBUG (0): 		No.0 ID:0 USED:1 X:1 Y:6
+DEBUG (0): 		No.0 ID:0 USED:6 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:8 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:2 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:4 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:10 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:166 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (4): Node: 1, u = 13, v = 3, w = 10, x = 100, y = 100, z = 12, zz = 10
+DEBUG (4): Node: 2, u = 12, v = 3, w = 9, x = 81, y = 81, z = 10, zz = 4
+DEBUG (4): Next Geo hop is: 2
+DEBUG (6): Node: 1, u = 13, v = 3, w = 10, x = 100, y = 100, z = 12, zz = 4
+DEBUG (6): Next Geo hop is: 1
+DEBUG (8): Node: 1, u = 13, v = 3, w = 10, x = 100, y = 100, z = 12, zz = 4
+DEBUG (8): Next Geo hop is: 1
+DEBUG (0): Message Received from 2 of 4
+DEBUG (0): 		No.0 ID:1 USED:1 X:10 Y:13
+DEBUG (0): 		No.1 ID:2 USED:1 X:8 Y:12
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:2 USED:7 X:6 Y:4
+DEBUG (0): 		No.2 ID:0 USED:0 X:0 Y:1
+DEBUG (0): 		No.0 ID:0 USED:13 X:1 Y:2
+DEBUG (0): 		No.0 ID:0 USED:12 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.166 ID:0 USED:0 X:2 Y:4
+DEBUG (0): 		No.0 ID:0 USED:4 X:4 Y:2
+DEBUG (0): 		No.0 ID:0 USED:1 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:2 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:166 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (10): Node: 1, u = 13, v = 3, w = 10, x = 100, y = 100, z = 12, zz = 9
+DEBUG (10): Node: 0, u = 10, v = 3, w = 7, x = 49, y = 49, z = 9, zz = 4
+DEBUG (10): Next Geo hop is: 0
+DEBUG (0): Message Received from 10 of 10
+DEBUG (0): 		No.0 ID:1 USED:1 X:10 Y:13
+DEBUG (0): 		No.1 ID:0 USED:1 X:10 Y:10
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:10 USED:7 X:6 Y:10
+DEBUG (0): 		No.10 ID:2 USED:0 X:0 Y:1
+DEBUG (0): 		No.0 ID:0 USED:13 X:1 Y:0
+DEBUG (0): 		No.0 ID:0 USED:10 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.166 ID:0 USED:0 X:2 Y:4
+DEBUG (0): 		No.0 ID:0 USED:4 X:4 Y:2
+DEBUG (0): 		No.0 ID:0 USED:1 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:2 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:166 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): Message Received from 1 of 6
+DEBUG (0): 		No.0 ID:1 USED:1 X:10 Y:13
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.1 ID:6 USED:7 X:6 Y:6
+DEBUG (0): 		No.6 ID:1 USED:0 X:0 Y:1
+DEBUG (0): 		No.0 ID:0 USED:13 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.166 ID:0 USED:0 X:2 Y:4
+DEBUG (0): 		No.0 ID:0 USED:4 X:4 Y:2
+DEBUG (0): 		No.0 ID:0 USED:1 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:2 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:166 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): Message Received from 1 of 8
+DEBUG (0): 		No.0 ID:1 USED:1 X:10 Y:13
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.1 ID:8 USED:7 X:6 Y:8
+DEBUG (0): 		No.8 ID:1 USED:0 X:0 Y:1
+DEBUG (0): 		No.0 ID:0 USED:13 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.166 ID:0 USED:0 X:0 Y:1
+DEBUG (0): 		No.0 ID:0 USED:8 X:1 Y:0
+DEBUG (0): 		No.0 ID:0 USED:1 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:166 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 		No.0 ID:0 USED:0 X:0 Y:0
+DEBUG (0): 
+Message Sent:7  Message Received:12
+DEBUG (0): REQSent:1 REPSent:6 NetworkSent:0 RelaySent:0
+DEBUG (0): REQReceived:3 REPReceived:3 NetworkReceived:6
+DEBUG (10): 
+Message Sent:7  Message Received:4
+DEBUG (10): REQSent:1 REPSent:5 NetworkSent:1 RelaySent:0
+DEBUG (10): REQReceived:2 REPReceived:2 NetworkReceived:0
+DEBUG (8): 
+Message Sent:4  Message Received:2
+DEBUG (8): REQSent:1 REPSent:1 NetworkSent:2 RelaySent:0
+DEBUG (8): REQReceived:1 REPReceived:1 NetworkReceived:0
+DEBUG (1): 
+Message Sent:10  Message Received:14
+DEBUG (1): REQSent:1 REPSent:6 NetworkSent:1 RelaySent:2
+DEBUG (1): REQReceived:6 REPReceived:6 NetworkReceived:2
+DEBUG (6): 
+Message Sent:4  Message Received:2
+DEBUG (6): REQSent:1 REPSent:1 NetworkSent:2 RelaySent:0
+DEBUG (6): REQReceived:1 REPReceived:1 NetworkReceived:0
+DEBUG (4): 
+Message Sent:8  Message Received:4
+DEBUG (4): REQSent:1 REPSent:5 NetworkSent:2 RelaySent:0
+DEBUG (4): REQReceived:2 REPReceived:2 NetworkReceived:0
+DEBUG (2): 
+Message Sent:8  Message Received:7
+DEBUG (2): REQSent:1 REPSent:5 NetworkSent:1 RelaySent:1
+DEBUG (2): REQReceived:3 REPReceived:3 NetworkReceived:1

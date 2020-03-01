@@ -1,0 +1,190 @@
+DEBUG (0): Booted
+DEBUG (2): Booted
+DEBUG (10): Booted
+DEBUG (8): Booted
+DEBUG (1): Booted
+DEBUG (6): Booted
+DEBUG (4): Booted
+DEBUG (10): Initialization Message Recieved; Being Written on NOde
+DEBUG (8): Initialization Message Recieved; Being Written on NOde
+DEBUG (6): Initialization Message Recieved; Being Written on NOde
+DEBUG (4): Initialization Message Recieved; Being Written on NOde
+DEBUG (2): Initialization Message Recieved; Being Written on NOde
+DEBUG (1): Initialization Message Recieved; Being Written on NOde
+DEBUG (0): Initialization Message Recieved; Being Written on NOde
+DEBUG (2): Radio Switched On
+DEBUG (2): 							 AMControl REQ entered with Timer: 112 	 0 	 0
+DEBUG (4): Radio Switched On
+DEBUG (4): 							 AMControl REQ entered with Timer: 112 	 0 	 0
+DEBUG (0): Radio Switched On
+DEBUG (0): 							 AMControl REQ entered with Timer: 112 	 0 	 0
+DEBUG (6): Radio Switched On
+DEBUG (6): 							 AMControl REQ entered with Timer: 112 	 0 	 0
+DEBUG (10): Radio Switched On
+DEBUG (10): 							 AMControl REQ entered with Timer: 112 	 0 	 0
+DEBUG (1): Radio Switched On
+DEBUG (1): 							 AMControl REQ entered with Timer: 112 	 0 	 0
+DEBUG (8): Radio Switched On
+DEBUG (8): 							 AMControl REQ entered with Timer: 112 	 0 	 0
+DEBUG (0): NeighborMonitoring Timer REQ fired at 0:0:0.000000031
+DEBUG (0): 	 TaskSendNeighborREQ entered
+DEBUG (0): SUCCESS: Ack supported
+DEBUG (0): 	 REQ sent
+DEBUG (2): 	 Received REQ from 0
+DEBUG (2): 							 NeighborREQReceiver REP entered
+DEBUG (10): 	 Received REQ from 0
+DEBUG (10): 							 NeighborREQReceiver REP entered
+DEBUG (1): 	 Received REQ from 0
+DEBUG (1): 							 NeighborREQReceiver REP entered
+DEBUG (2): 			 REP entered
+DEBUG (2): 			 REP not BUSY
+DEBUG (2): 			 REP sent to 0
+DEBUG (10): 			 REP entered
+DEBUG (10): 			 REP not BUSY
+DEBUG (10): 			 REP sent to 0
+DEBUG (1): 			 REP entered
+DEBUG (1): 			 REP not BUSY
+DEBUG (1): 			 REP sent to 0
+DEBUG (10): 							 SendNeighborREP REP entered
+DEBUG (10): 			 REP entered
+DEBUG (10): 			 REP not BUSY
+DEBUG (10): 			 REP sent to 0
+DEBUG (2): 							 SendNeighborREP REP entered
+DEBUG (2): 			 REP entered
+DEBUG (2): 			 REP not BUSY
+DEBUG (2): 			 REP sent to 0
+DEBUG (1): NeighborMonitoring Timer REQ fired at 0:0:0.125000011
+DEBUG (1): 	 TaskSendNeighborREQ entered
+DEBUG (1): SUCCESS: Ack supported
+DEBUG (1): 	 REQ sent
+DEBUG (4): 	 Received REQ from 1
+DEBUG (4): 							 NeighborREQReceiver REP entered
+DEBUG (6): 	 Received REQ from 1
+DEBUG (6): 							 NeighborREQReceiver REP entered
+DEBUG (8): 	 Received REQ from 1
+DEBUG (8): 							 NeighborREQReceiver REP entered
+DEBUG (2): 	 Received REQ from 1
+DEBUG (2): 							 NeighborREQReceiver REP entered
+DEBUG (0): 	 Received REQ from 1
+DEBUG (0): 							 NeighborREQReceiver REP entered
+DEBUG (10): 	 Received REQ from 1
+DEBUG (10): 							 NeighborREQReceiver REP entered
+DEBUG (0): 			 REP entered
+DEBUG (0): 			 REP not BUSY
+DEBUG (0): 			 REP sent to 1
+DEBUG (10): 			 REP entered
+DEBUG (10): 			 REP not BUSY
+DEBUG (10): 			 REP sent to 1
+DEBUG (4): 			 REP entered
+DEBUG (4): 			 REP not BUSY
+DEBUG (4): 			 REP sent to 1
+DEBUG (6): 			 REP entered
+DEBUG (6): 			 REP not BUSY
+DEBUG (6): 			 REP sent to 1
+DEBUG (8): 			 REP entered
+DEBUG (8): 			 REP not BUSY
+DEBUG (8): 			 REP sent to 1
+DEBUG (2): 			 REP entered
+DEBUG (2): 			 REP not BUSY
+DEBUG (2): 			 REP sent to 1
+DEBUG (10): 							 SendNeighborREP REP entered
+DEBUG (10): 			 REP entered
+DEBUG (10): 			 REP not BUSY
+DEBUG (10): 			 REP sent to 1
+DEBUG (0): 							 SendNeighborREP REP entered
+DEBUG (0): 			 REP entered
+DEBUG (0): 			 REP not BUSY
+DEBUG (0): 			 REP sent to 1
+DEBUG (4): 							 SendNeighborREP REP entered
+DEBUG (4): 			 REP entered
+DEBUG (4): 			 REP not BUSY
+DEBUG (4): 			 REP sent to 1
+DEBUG (2): 							 SendNeighborREP REP entered
+DEBUG (2): 			 REP entered
+DEBUG (2): 			 REP not BUSY
+DEBUG (2): 			 REP sent to 1
+DEBUG (10): 							 SendNeighborREP REP entered
+DEBUG (10): 			 REP entered
+DEBUG (10): 			 REP not BUSY
+DEBUG (10): 			 REP sent to 1
+DEBUG (4): 							 SendNeighborREP REP entered
+DEBUG (4): 			 REP entered
+DEBUG (4): 			 REP not BUSY
+DEBUG (4): 			 REP sent to 1
+DEBUG (0): 							 SendNeighborREP REP entered
+DEBUG (0): 			 REP entered
+DEBUG (0): 			 REP not BUSY
+DEBUG (0): 			 REP sent to 1
+DEBUG (2): NeighborMonitoring Timer REQ fired at 0:0:0.250000011
+DEBUG (2): 	 TaskSendNeighborREQ entered
+DEBUG (2): SUCCESS: Ack supported
+DEBUG (2): 	 REQ sent
+DEBUG (4): 	 Received REQ from 2
+DEBUG (4): 							 NeighborREQReceiver REP entered
+DEBUG (1): 	 Received REQ from 2
+DEBUG (1): 							 NeighborREQReceiver REP entered
+DEBUG (0): 	 Received REQ from 2
+DEBUG (0): 							 NeighborREQReceiver REP entered
+DEBUG (4): 			 REP entered
+DEBUG (4): 			 REP not BUSY
+DEBUG (4): 			 REP sent to 2
+DEBUG (1): 			 REP entered
+DEBUG (1): 			 REP not BUSY
+DEBUG (1): 			 REP sent to 2
+DEBUG (0): 			 REP entered
+DEBUG (0): 			 REP not BUSY
+DEBUG (0): 			 REP sent to 2
+DEBUG (0): 							 SendNeighborREP REP entered
+DEBUG (0): 			 REP entered
+DEBUG (0): 			 REP not BUSY
+DEBUG (0): 			 REP sent to 2
+DEBUG (4): 							 SendNeighborREP REP entered
+DEBUG (4): 			 REP entered
+DEBUG (4): 			 REP not BUSY
+DEBUG (4): 			 REP sent to 2
+DEBUG (4): NeighborMonitoring Timer REQ fired at 0:0:0.500000011
+DEBUG (4): 	 TaskSendNeighborREQ entered
+DEBUG (4): SUCCESS: Ack supported
+DEBUG (4): 	 REQ sent
+DEBUG (2): 	 Received REQ from 4
+DEBUG (2): 							 NeighborREQReceiver REP entered
+DEBUG (1): 	 Received REQ from 4
+DEBUG (1): 							 NeighborREQReceiver REP entered
+DEBUG (2): 			 REP entered
+DEBUG (2): 			 REP not BUSY
+DEBUG (2): 			 REP sent to 4
+DEBUG (1): 			 REP entered
+DEBUG (1): 			 REP not BUSY
+DEBUG (1): 			 REP sent to 4
+DEBUG (6): NeighborMonitoring Timer REQ fired at 0:0:0.750000011
+DEBUG (6): 	 TaskSendNeighborREQ entered
+DEBUG (6): SUCCESS: Ack supported
+DEBUG (6): 	 REQ sent
+DEBUG (1): 	 Received REQ from 6
+DEBUG (1): 							 NeighborREQReceiver REP entered
+DEBUG (1): 			 REP entered
+DEBUG (1): 			 REP not BUSY
+DEBUG (1): 			 REP sent to 6
+DEBUG (8): NeighborMonitoring Timer REQ fired at 0:0:1.000000011
+DEBUG (8): 	 TaskSendNeighborREQ entered
+DEBUG (8): SUCCESS: Ack supported
+DEBUG (8): 	 REQ sent
+DEBUG (1): 	 Received REQ from 8
+DEBUG (1): 							 NeighborREQReceiver REP entered
+DEBUG (1): 			 REP entered
+DEBUG (1): 			 REP not BUSY
+DEBUG (1): 			 REP sent to 8
+DEBUG (10): NeighborMonitoring Timer REQ fired at 0:0:1.250000011
+DEBUG (10): 	 TaskSendNeighborREQ entered
+DEBUG (10): SUCCESS: Ack supported
+DEBUG (10): 	 REQ sent
+DEBUG (1): 	 Received REQ from 10
+DEBUG (1): 							 NeighborREQReceiver REP entered
+DEBUG (0): 	 Received REQ from 10
+DEBUG (0): 							 NeighborREQReceiver REP entered
+DEBUG (1): 			 REP entered
+DEBUG (1): 			 REP not BUSY
+DEBUG (1): 			 REP sent to 10
+DEBUG (0): 			 REP entered
+DEBUG (0): 			 REP not BUSY
+DEBUG (0): 			 REP sent to 10

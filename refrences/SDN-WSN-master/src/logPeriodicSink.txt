@@ -1,0 +1,2371 @@
+DEBUG (1): Periodic Timer at 0:0:40.989257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:1
+DEBUG (2): Periodic Timer at 0:0:41.489257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:1
+DEBUG (4): Periodic Timer at 0:0:42.489257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:1
+DEBUG (1): Periodic Timer at 0:0:43.098632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:2
+DEBUG (6): Periodic Timer at 0:0:43.489257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:1
+DEBUG (2): Periodic Timer at 0:0:43.598632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:2
+DEBUG (8): Periodic Timer at 0:0:44.489257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:0 SensedMsg:24 Count:1
+DEBUG (4): Periodic Timer at 0:0:44.598632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:2
+DEBUG (1): Periodic Timer at 0:0:45.208007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:3
+DEBUG (10): Periodic Timer at 0:0:45.489257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:0 SensedMsg:30 Count:1
+DEBUG (6): Periodic Timer at 0:0:45.598632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:2
+DEBUG (2): Periodic Timer at 0:0:45.708007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:3
+DEBUG (8): Periodic Timer at 0:0:46.598632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:0 SensedMsg:24 Count:2
+DEBUG (4): Periodic Timer at 0:0:46.708007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:3
+DEBUG (1): Periodic Timer at 0:0:47.317382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:4
+DEBUG (10): Periodic Timer at 0:0:47.598632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:0 SensedMsg:30 Count:2
+DEBUG (6): Periodic Timer at 0:0:47.708007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:3
+DEBUG (2): Periodic Timer at 0:0:47.817382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:4
+DEBUG (8): Periodic Timer at 0:0:48.708007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:0 SensedMsg:24 Count:3
+DEBUG (4): Periodic Timer at 0:0:48.817382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:4
+DEBUG (1): Periodic Timer at 0:0:49.426757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:5
+DEBUG (10): Periodic Timer at 0:0:49.708007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:0 SensedMsg:30 Count:3
+DEBUG (6): Periodic Timer at 0:0:49.817382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:4
+DEBUG (2): Periodic Timer at 0:0:49.926757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:5
+DEBUG (8): Periodic Timer at 0:0:50.817382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:0 SensedMsg:24 Count:4
+DEBUG (4): Periodic Timer at 0:0:50.926757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:5
+DEBUG (1): Periodic Timer at 0:0:51.536132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:6
+DEBUG (10): Periodic Timer at 0:0:51.817382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:0 SensedMsg:30 Count:4
+DEBUG (6): Periodic Timer at 0:0:51.926757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:5
+DEBUG (2): Periodic Timer at 0:0:52.036132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:6
+DEBUG (8): Periodic Timer at 0:0:52.926757823 
+DEBUG (4): Periodic Timer at 0:0:53.036132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:6
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:5
+DEBUG (1): Periodic Timer at 0:0:53.645507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:7
+DEBUG (10): Periodic Timer at 0:0:53.926757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:0 SensedMsg:30 Count:5
+DEBUG (6): Periodic Timer at 0:0:54.036132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:6
+DEBUG (2): Periodic Timer at 0:0:54.145507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:7
+DEBUG (8): Periodic Timer at 0:0:55.036132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:6
+DEBUG (4): Periodic Timer at 0:0:55.145507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:7
+DEBUG (1): Periodic Timer at 0:0:55.754882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:8
+DEBUG (10): Periodic Timer at 0:0:56.036132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:0 SensedMsg:30 Count:6
+DEBUG (6): Periodic Timer at 0:0:56.145507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:7
+DEBUG (2): Periodic Timer at 0:0:56.254882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:8
+DEBUG (8): Periodic Timer at 0:0:57.145507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:7
+DEBUG (4): Periodic Timer at 0:0:57.254882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:8
+DEBUG (1): Periodic Timer at 0:0:57.864257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:9
+DEBUG (10): Periodic Timer at 0:0:58.145507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:0 SensedMsg:30 Count:7
+DEBUG (6): Periodic Timer at 0:0:58.254882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:8
+DEBUG (2): Periodic Timer at 0:0:58.364257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:9
+DEBUG (8): Periodic Timer at 0:0:59.254882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:8
+DEBUG (4): Periodic Timer at 0:0:59.364257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:9
+DEBUG (1): Periodic Timer at 0:0:59.973632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:10
+DEBUG (10): Periodic Timer at 0:1:0.254882823 
+DEBUG (6): Periodic Timer at 0:1:0.364257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:9
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:8
+DEBUG (2): Periodic Timer at 0:1:0.473632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:10
+DEBUG (8): Periodic Timer at 0:1:1.364257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:9
+DEBUG (4): Periodic Timer at 0:1:1.473632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:10
+DEBUG (1): Periodic Timer at 0:1:2.083007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:11
+DEBUG (10): Periodic Timer at 0:1:2.364257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:9
+DEBUG (6): Periodic Timer at 0:1:2.473632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:10
+DEBUG (2): Periodic Timer at 0:1:2.583007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:11
+DEBUG (8): Periodic Timer at 0:1:3.473632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:10
+DEBUG (4): Periodic Timer at 0:1:3.583007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:11
+DEBUG (1): Periodic Timer at 0:1:4.192382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:12
+DEBUG (10): Periodic Timer at 0:1:4.473632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:10
+DEBUG (6): Periodic Timer at 0:1:4.583007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:11
+DEBUG (2): Periodic Timer at 0:1:4.692382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:12
+DEBUG (8): Periodic Timer at 0:1:5.583007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:11
+DEBUG (4): Periodic Timer at 0:1:5.692382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:12
+DEBUG (1): Periodic Timer at 0:1:6.301757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:13
+DEBUG (10): Periodic Timer at 0:1:6.583007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:11
+DEBUG (6): Periodic Timer at 0:1:6.692382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:12
+DEBUG (2): Periodic Timer at 0:1:6.801757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:13
+DEBUG (8): Periodic Timer at 0:1:7.692382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:12
+DEBUG (4): Periodic Timer at 0:1:7.801757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:13
+DEBUG (1): Periodic Timer at 0:1:8.411132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:14
+DEBUG (10): Periodic Timer at 0:1:8.692382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:12
+DEBUG (6): Periodic Timer at 0:1:8.801757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:13
+DEBUG (2): Periodic Timer at 0:1:8.911132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:14
+DEBUG (8): Periodic Timer at 0:1:9.801757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:13
+DEBUG (4): Periodic Timer at 0:1:9.911132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:14
+DEBUG (1): Periodic Timer at 0:1:10.520507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:15
+DEBUG (10): Periodic Timer at 0:1:10.801757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:13
+DEBUG (6): Periodic Timer at 0:1:10.911132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:14
+DEBUG (2): Periodic Timer at 0:1:11.020507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:15
+DEBUG (8): Periodic Timer at 0:1:11.911132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:14
+DEBUG (4): Periodic Timer at 0:1:12.020507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:15
+DEBUG (1): Periodic Timer at 0:1:12.629882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:16
+DEBUG (10): Periodic Timer at 0:1:12.911132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:14
+DEBUG (6): Periodic Timer at 0:1:13.020507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:15
+DEBUG (2): Periodic Timer at 0:1:13.129882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:16
+DEBUG (8): Periodic Timer at 0:1:14.020507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:15
+DEBUG (4): Periodic Timer at 0:1:14.129882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:16
+DEBUG (1): Periodic Timer at 0:1:14.739257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:17
+DEBUG (10): Periodic Timer at 0:1:15.020507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:15
+DEBUG (6): Periodic Timer at 0:1:15.129882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:16
+DEBUG (2): Periodic Timer at 0:1:15.239257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:17
+DEBUG (8): Periodic Timer at 0:1:16.129882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:16
+DEBUG (4): Periodic Timer at 0:1:16.239257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:17
+DEBUG (1): Periodic Timer at 0:1:16.848632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:18
+DEBUG (10): Periodic Timer at 0:1:17.129882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:16
+DEBUG (6): Periodic Timer at 0:1:17.239257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:17
+DEBUG (2): Periodic Timer at 0:1:17.348632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:18
+DEBUG (8): Periodic Timer at 0:1:18.239257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:17
+DEBUG (4): Periodic Timer at 0:1:18.348632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:18
+DEBUG (1): Periodic Timer at 0:1:18.958007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:19
+DEBUG (10): Periodic Timer at 0:1:19.239257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:17
+DEBUG (6): Periodic Timer at 0:1:19.348632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:18
+DEBUG (2): Periodic Timer at 0:1:19.458007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:19
+DEBUG (8): Periodic Timer at 0:1:20.348632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:18
+DEBUG (4): Periodic Timer at 0:1:20.458007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:19
+DEBUG (1): Periodic Timer at 0:1:21.067382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:20
+DEBUG (10): Periodic Timer at 0:1:21.348632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:18
+DEBUG (6): Periodic Timer at 0:1:21.458007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:19
+DEBUG (2): Periodic Timer at 0:1:21.567382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:20
+DEBUG (8): Periodic Timer at 0:1:22.458007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:19
+DEBUG (4): Periodic Timer at 0:1:22.567382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:20
+DEBUG (1): Periodic Timer at 0:1:23.176757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:21
+DEBUG (10): Periodic Timer at 0:1:23.458007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:19
+DEBUG (6): Periodic Timer at 0:1:23.567382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:20
+DEBUG (2): Periodic Timer at 0:1:23.676757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:21
+DEBUG (8): Periodic Timer at 0:1:24.567382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:20
+DEBUG (4): Periodic Timer at 0:1:24.676757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:21
+DEBUG (1): Periodic Timer at 0:1:25.286132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:22
+DEBUG (10): Periodic Timer at 0:1:25.567382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:20
+DEBUG (6): Periodic Timer at 0:1:25.676757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:21
+DEBUG (2): Periodic Timer at 0:1:25.786132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:22
+DEBUG (8): Periodic Timer at 0:1:26.676757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:21
+DEBUG (4): Periodic Timer at 0:1:26.786132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:22
+DEBUG (1): Periodic Timer at 0:1:27.395507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:23
+DEBUG (10): Periodic Timer at 0:1:27.676757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:21
+DEBUG (6): Periodic Timer at 0:1:27.786132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:22
+DEBUG (2): Periodic Timer at 0:1:27.895507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:23
+DEBUG (8): Periodic Timer at 0:1:28.786132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:22
+DEBUG (4): Periodic Timer at 0:1:28.895507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:23
+DEBUG (1): Periodic Timer at 0:1:29.504882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:24
+DEBUG (10): Periodic Timer at 0:1:29.786132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:22
+DEBUG (6): Periodic Timer at 0:1:29.895507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:23
+DEBUG (2): Periodic Timer at 0:1:30.004882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:24
+DEBUG (8): Periodic Timer at 0:1:30.895507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:23
+DEBUG (4): Periodic Timer at 0:1:31.004882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:24
+DEBUG (1): Periodic Timer at 0:1:31.614257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:25
+DEBUG (10): Periodic Timer at 0:1:31.895507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:23
+DEBUG (6): Periodic Timer at 0:1:32.004882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:24
+DEBUG (2): Periodic Timer at 0:1:32.114257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:25
+DEBUG (8): Periodic Timer at 0:1:33.004882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:24
+DEBUG (4): Periodic Timer at 0:1:33.114257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:25
+DEBUG (1): Periodic Timer at 0:1:33.723632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:26
+DEBUG (10): Periodic Timer at 0:1:34.004882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:24
+DEBUG (6): Periodic Timer at 0:1:34.114257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:25
+DEBUG (2): Periodic Timer at 0:1:34.223632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:26
+DEBUG (8): Periodic Timer at 0:1:35.114257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:25
+DEBUG (4): Periodic Timer at 0:1:35.223632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:26
+DEBUG (1): Periodic Timer at 0:1:35.833007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:27
+DEBUG (10): Periodic Timer at 0:1:36.114257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:25
+DEBUG (6): Periodic Timer at 0:1:36.223632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:26
+DEBUG (2): Periodic Timer at 0:1:36.333007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:27
+DEBUG (8): Periodic Timer at 0:1:37.223632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:26
+DEBUG (4): Periodic Timer at 0:1:37.333007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:27
+DEBUG (1): Periodic Timer at 0:1:37.942382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:28
+DEBUG (10): Periodic Timer at 0:1:38.223632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:26
+DEBUG (6): Periodic Timer at 0:1:38.333007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:27
+DEBUG (2): Periodic Timer at 0:1:38.442382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:28
+DEBUG (8): Periodic Timer at 0:1:39.333007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:27
+DEBUG (4): Periodic Timer at 0:1:39.442382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:28
+DEBUG (1): Periodic Timer at 0:1:40.051757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:29
+DEBUG (10): Periodic Timer at 0:1:40.333007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:27
+DEBUG (6): Periodic Timer at 0:1:40.442382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:28
+DEBUG (2): Periodic Timer at 0:1:40.551757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:29
+DEBUG (8): Periodic Timer at 0:1:41.442382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:28
+DEBUG (4): Periodic Timer at 0:1:41.551757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:29
+DEBUG (1): Periodic Timer at 0:1:42.161132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:30
+DEBUG (10): Periodic Timer at 0:1:42.442382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:28
+DEBUG (6): Periodic Timer at 0:1:42.551757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:29
+DEBUG (2): Periodic Timer at 0:1:42.661132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:30
+DEBUG (8): Periodic Timer at 0:1:43.551757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:29
+DEBUG (4): Periodic Timer at 0:1:43.661132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:30
+DEBUG (1): Periodic Timer at 0:1:44.270507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:31
+DEBUG (10): Periodic Timer at 0:1:44.551757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:29
+DEBUG (6): Periodic Timer at 0:1:44.661132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:30
+DEBUG (2): Periodic Timer at 0:1:44.770507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:31
+DEBUG (8): Periodic Timer at 0:1:45.661132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:30
+DEBUG (4): Periodic Timer at 0:1:45.770507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:31
+DEBUG (1): Periodic Timer at 0:1:46.379882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:32
+DEBUG (10): Periodic Timer at 0:1:46.661132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:30
+DEBUG (6): Periodic Timer at 0:1:46.770507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:31
+DEBUG (2): Periodic Timer at 0:1:46.879882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:32
+DEBUG (8): Periodic Timer at 0:1:47.770507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:31
+DEBUG (4): Periodic Timer at 0:1:47.879882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:32
+DEBUG (1): Periodic Timer at 0:1:48.489257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:33
+DEBUG (10): Periodic Timer at 0:1:48.770507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:31
+DEBUG (6): Periodic Timer at 0:1:48.879882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:32
+DEBUG (2): Periodic Timer at 0:1:48.989257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:33
+DEBUG (8): Periodic Timer at 0:1:49.879882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:32
+DEBUG (4): Periodic Timer at 0:1:49.989257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:33
+DEBUG (1): Periodic Timer at 0:1:50.598632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:34
+DEBUG (10): Periodic Timer at 0:1:50.879882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:32
+DEBUG (6): Periodic Timer at 0:1:50.989257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:33
+DEBUG (2): Periodic Timer at 0:1:51.098632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:34
+DEBUG (8): Periodic Timer at 0:1:51.989257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:33
+DEBUG (4): Periodic Timer at 0:1:52.098632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:34
+DEBUG (1): Periodic Timer at 0:1:52.708007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:35
+DEBUG (10): Periodic Timer at 0:1:52.989257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:33
+DEBUG (6): Periodic Timer at 0:1:53.098632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:34
+DEBUG (2): Periodic Timer at 0:1:53.208007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:35
+DEBUG (8): Periodic Timer at 0:1:54.098632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:34
+DEBUG (4): Periodic Timer at 0:1:54.208007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:35
+DEBUG (1): Periodic Timer at 0:1:54.817382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:36
+DEBUG (10): Periodic Timer at 0:1:55.098632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:34
+DEBUG (6): Periodic Timer at 0:1:55.208007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:35
+DEBUG (2): Periodic Timer at 0:1:55.317382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:36
+DEBUG (8): Periodic Timer at 0:1:56.208007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:35
+DEBUG (4): Periodic Timer at 0:1:56.317382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:36
+DEBUG (1): Periodic Timer at 0:1:56.926757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:0 SensedMsg:3 Count:37
+DEBUG (10): Periodic Timer at 0:1:57.208007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:35
+DEBUG (6): Periodic Timer at 0:1:57.317382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:36
+DEBUG (2): Periodic Timer at 0:1:57.426757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:37
+DEBUG (8): Periodic Timer at 0:1:58.317382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:36
+DEBUG (4): Periodic Timer at 0:1:58.426757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:37
+DEBUG (1): Periodic Timer at 0:1:59.036132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:1 SensedMsg:3 Count:38
+DEBUG (10): Periodic Timer at 0:1:59.317382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:36
+DEBUG (6): Periodic Timer at 0:1:59.426757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:37
+DEBUG (2): Periodic Timer at 0:1:59.536132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:38
+DEBUG (8): Periodic Timer at 0:2:0.426757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:37
+DEBUG (4): Periodic Timer at 0:2:0.536132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:38
+DEBUG (1): Periodic Timer at 0:2:1.145507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:1 SensedMsg:3 Count:39
+DEBUG (10): Periodic Timer at 0:2:1.426757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:37
+DEBUG (6): Periodic Timer at 0:2:1.536132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:38
+DEBUG (2): Periodic Timer at 0:2:1.645507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:39
+DEBUG (8): Periodic Timer at 0:2:2.536132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:38
+DEBUG (4): Periodic Timer at 0:2:2.645507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:39
+DEBUG (1): Periodic Timer at 0:2:3.254882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:1 SensedMsg:3 Count:40
+DEBUG (10): Periodic Timer at 0:2:3.536132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:38
+DEBUG (6): Periodic Timer at 0:2:3.645507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:39
+DEBUG (2): Periodic Timer at 0:2:3.754882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:40
+DEBUG (8): Periodic Timer at 0:2:4.645507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:39
+DEBUG (4): Periodic Timer at 0:2:4.754882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:40
+DEBUG (1): Periodic Timer at 0:2:5.364257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:1 SensedMsg:3 Count:41
+DEBUG (10): Periodic Timer at 0:2:5.645507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:39
+DEBUG (6): Periodic Timer at 0:2:5.754882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:40
+DEBUG (2): Periodic Timer at 0:2:5.864257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:41
+DEBUG (8): Periodic Timer at 0:2:6.754882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:40
+DEBUG (4): Periodic Timer at 0:2:6.864257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:41
+DEBUG (1): Periodic Timer at 0:2:7.473632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:1 SensedMsg:3 Count:42
+DEBUG (10): Periodic Timer at 0:2:7.754882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:40
+DEBUG (6): Periodic Timer at 0:2:7.864257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:41
+DEBUG (2): Periodic Timer at 0:2:7.973632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:42
+DEBUG (8): Periodic Timer at 0:2:8.864257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:41
+DEBUG (4): Periodic Timer at 0:2:8.973632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:42
+DEBUG (1): Periodic Timer at 0:2:9.583007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:1 SensedMsg:3 Count:43
+DEBUG (10): Periodic Timer at 0:2:9.864257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:41
+DEBUG (6): Periodic Timer at 0:2:9.973632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:42
+DEBUG (2): Periodic Timer at 0:2:10.083007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:43
+DEBUG (8): Periodic Timer at 0:2:10.973632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:42
+DEBUG (4): Periodic Timer at 0:2:11.083007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:43
+DEBUG (1): Periodic Timer at 0:2:11.692382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:1 SensedMsg:3 Count:44
+DEBUG (10): Periodic Timer at 0:2:11.973632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:42
+DEBUG (6): Periodic Timer at 0:2:12.083007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:43
+DEBUG (2): Periodic Timer at 0:2:12.192382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:44
+DEBUG (8): Periodic Timer at 0:2:13.083007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:43
+DEBUG (4): Periodic Timer at 0:2:13.192382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:44
+DEBUG (1): Periodic Timer at 0:2:13.801757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:1 SensedMsg:3 Count:45
+DEBUG (10): Periodic Timer at 0:2:14.083007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:43
+DEBUG (6): Periodic Timer at 0:2:14.192382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:44
+DEBUG (2): Periodic Timer at 0:2:14.301757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:45
+DEBUG (8): Periodic Timer at 0:2:15.192382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:44
+DEBUG (4): Periodic Timer at 0:2:15.301757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:45
+DEBUG (1): Periodic Timer at 0:2:15.911132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:1 SensedMsg:3 Count:46
+DEBUG (10): Periodic Timer at 0:2:16.192382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:44
+DEBUG (6): Periodic Timer at 0:2:16.301757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:45
+DEBUG (2): Periodic Timer at 0:2:16.411132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:46
+DEBUG (8): Periodic Timer at 0:2:17.301757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:45
+DEBUG (4): Periodic Timer at 0:2:17.411132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:46
+DEBUG (1): Periodic Timer at 0:2:18.020507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:47
+DEBUG (10): Periodic Timer at 0:2:18.301757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:45
+DEBUG (6): Periodic Timer at 0:2:18.411132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:46
+DEBUG (2): Periodic Timer at 0:2:18.520507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:47
+DEBUG (8): Periodic Timer at 0:2:19.411132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:46
+DEBUG (4): Periodic Timer at 0:2:19.520507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:47
+DEBUG (1): Periodic Timer at 0:2:20.129882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:48
+DEBUG (10): Periodic Timer at 0:2:20.411132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:46
+DEBUG (6): Periodic Timer at 0:2:20.520507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:47
+DEBUG (2): Periodic Timer at 0:2:20.629882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:48
+DEBUG (8): Periodic Timer at 0:2:21.520507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:47
+DEBUG (4): Periodic Timer at 0:2:21.629882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:48
+DEBUG (1): Periodic Timer at 0:2:22.239257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:49
+DEBUG (10): Periodic Timer at 0:2:22.520507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:47
+DEBUG (6): Periodic Timer at 0:2:22.629882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:48
+DEBUG (2): Periodic Timer at 0:2:22.739257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:49
+DEBUG (8): Periodic Timer at 0:2:23.629882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:48
+DEBUG (4): Periodic Timer at 0:2:23.739257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:49
+DEBUG (1): Periodic Timer at 0:2:24.348632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:50
+DEBUG (10): Periodic Timer at 0:2:24.629882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:48
+DEBUG (6): Periodic Timer at 0:2:24.739257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:49
+DEBUG (2): Periodic Timer at 0:2:24.848632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:50
+DEBUG (8): Periodic Timer at 0:2:25.739257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:49
+DEBUG (4): Periodic Timer at 0:2:25.848632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:50
+DEBUG (1): Periodic Timer at 0:2:26.458007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:51
+DEBUG (10): Periodic Timer at 0:2:26.739257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:49
+DEBUG (6): Periodic Timer at 0:2:26.848632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:50
+DEBUG (2): Periodic Timer at 0:2:26.958007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:51
+DEBUG (8): Periodic Timer at 0:2:27.848632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:50
+DEBUG (4): Periodic Timer at 0:2:27.958007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:51
+DEBUG (1): Periodic Timer at 0:2:28.567382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:52
+DEBUG (10): Periodic Timer at 0:2:28.848632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:50
+DEBUG (6): Periodic Timer at 0:2:28.958007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:51
+DEBUG (2): Periodic Timer at 0:2:29.067382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:52
+DEBUG (8): Periodic Timer at 0:2:29.958007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:51
+DEBUG (4): Periodic Timer at 0:2:30.067382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:52
+DEBUG (1): Periodic Timer at 0:2:30.676757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:53
+DEBUG (10): Periodic Timer at 0:2:30.958007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:51
+DEBUG (6): Periodic Timer at 0:2:31.067382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:52
+DEBUG (2): Periodic Timer at 0:2:31.176757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:53
+DEBUG (8): Periodic Timer at 0:2:32.067382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:52
+DEBUG (4): Periodic Timer at 0:2:32.176757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:53
+DEBUG (1): Periodic Timer at 0:2:32.786132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:54
+DEBUG (10): Periodic Timer at 0:2:33.067382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:52
+DEBUG (6): Periodic Timer at 0:2:33.176757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:53
+DEBUG (2): Periodic Timer at 0:2:33.286132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:54
+DEBUG (8): Periodic Timer at 0:2:34.176757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:53
+DEBUG (4): Periodic Timer at 0:2:34.286132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:54
+DEBUG (1): Periodic Timer at 0:2:34.895507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:55
+DEBUG (10): Periodic Timer at 0:2:35.176757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:53
+DEBUG (6): Periodic Timer at 0:2:35.286132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:54
+DEBUG (2): Periodic Timer at 0:2:35.395507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:55
+DEBUG (8): Periodic Timer at 0:2:36.286132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:54
+DEBUG (4): Periodic Timer at 0:2:36.395507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:55
+DEBUG (1): Periodic Timer at 0:2:37.004882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:56
+DEBUG (10): Periodic Timer at 0:2:37.286132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:54
+DEBUG (6): Periodic Timer at 0:2:37.395507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:55
+DEBUG (2): Periodic Timer at 0:2:37.504882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:56
+DEBUG (8): Periodic Timer at 0:2:38.395507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:55
+DEBUG (4): Periodic Timer at 0:2:38.504882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:56
+DEBUG (1): Periodic Timer at 0:2:39.114257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:57
+DEBUG (10): Periodic Timer at 0:2:39.395507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:55
+DEBUG (6): Periodic Timer at 0:2:39.504882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:56
+DEBUG (2): Periodic Timer at 0:2:39.614257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:57
+DEBUG (8): Periodic Timer at 0:2:40.504882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:56
+DEBUG (4): Periodic Timer at 0:2:40.614257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:57
+DEBUG (1): Periodic Timer at 0:2:41.223632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:58
+DEBUG (10): Periodic Timer at 0:2:41.504882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:56
+DEBUG (6): Periodic Timer at 0:2:41.614257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:57
+DEBUG (2): Periodic Timer at 0:2:41.723632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:58
+DEBUG (8): Periodic Timer at 0:2:42.614257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:57
+DEBUG (4): Periodic Timer at 0:2:42.723632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:58
+DEBUG (1): Periodic Timer at 0:2:43.333007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:59
+DEBUG (10): Periodic Timer at 0:2:43.614257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:57
+DEBUG (6): Periodic Timer at 0:2:43.723632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:58
+DEBUG (2): Periodic Timer at 0:2:43.833007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:59
+DEBUG (8): Periodic Timer at 0:2:44.723632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:58
+DEBUG (4): Periodic Timer at 0:2:44.833007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:59
+DEBUG (1): Periodic Timer at 0:2:45.442382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:60
+DEBUG (10): Periodic Timer at 0:2:45.723632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:58
+DEBUG (6): Periodic Timer at 0:2:45.833007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:59
+DEBUG (2): Periodic Timer at 0:2:45.942382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:60
+DEBUG (8): Periodic Timer at 0:2:46.833007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:59
+DEBUG (4): Periodic Timer at 0:2:46.942382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:60
+DEBUG (1): Periodic Timer at 0:2:47.551757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:61
+DEBUG (10): Periodic Timer at 0:2:47.833007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:59
+DEBUG (6): Periodic Timer at 0:2:47.942382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:60
+DEBUG (2): Periodic Timer at 0:2:48.051757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:61
+DEBUG (8): Periodic Timer at 0:2:48.942382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:60
+DEBUG (4): Periodic Timer at 0:2:49.051757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:61
+DEBUG (1): Periodic Timer at 0:2:49.661132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:62
+DEBUG (10): Periodic Timer at 0:2:49.942382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:60
+DEBUG (6): Periodic Timer at 0:2:50.051757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:61
+DEBUG (2): Periodic Timer at 0:2:50.161132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:62
+DEBUG (8): Periodic Timer at 0:2:51.051757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:61
+DEBUG (4): Periodic Timer at 0:2:51.161132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:62
+DEBUG (1): Periodic Timer at 0:2:51.770507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:63
+DEBUG (10): Periodic Timer at 0:2:52.051757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:61
+DEBUG (6): Periodic Timer at 0:2:52.161132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:62
+DEBUG (2): Periodic Timer at 0:2:52.270507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:63
+DEBUG (8): Periodic Timer at 0:2:53.161132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:62
+DEBUG (4): Periodic Timer at 0:2:53.270507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:63
+DEBUG (1): Periodic Timer at 0:2:53.879882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:64
+DEBUG (10): Periodic Timer at 0:2:54.161132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:62
+DEBUG (6): Periodic Timer at 0:2:54.270507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:63
+DEBUG (2): Periodic Timer at 0:2:54.379882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:64
+DEBUG (8): Periodic Timer at 0:2:55.270507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:63
+DEBUG (4): Periodic Timer at 0:2:55.379882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:64
+DEBUG (1): Periodic Timer at 0:2:55.989257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:65
+DEBUG (10): Periodic Timer at 0:2:56.270507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:63
+DEBUG (6): Periodic Timer at 0:2:56.379882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:64
+DEBUG (2): Periodic Timer at 0:2:56.489257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:65
+DEBUG (8): Periodic Timer at 0:2:57.379882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:64
+DEBUG (4): Periodic Timer at 0:2:57.489257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:65
+DEBUG (1): Periodic Timer at 0:2:58.098632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:66
+DEBUG (10): Periodic Timer at 0:2:58.379882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:64
+DEBUG (6): Periodic Timer at 0:2:58.489257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:65
+DEBUG (2): Periodic Timer at 0:2:58.598632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:66
+DEBUG (8): Periodic Timer at 0:2:59.489257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:65
+DEBUG (4): Periodic Timer at 0:2:59.598632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:66
+DEBUG (1): Periodic Timer at 0:3:0.208007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:67
+DEBUG (10): Periodic Timer at 0:3:0.489257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:65
+DEBUG (6): Periodic Timer at 0:3:0.598632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:66
+DEBUG (2): Periodic Timer at 0:3:0.708007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:67
+DEBUG (8): Periodic Timer at 0:3:1.598632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:66
+DEBUG (4): Periodic Timer at 0:3:1.708007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:67
+DEBUG (1): Periodic Timer at 0:3:2.317382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:68
+DEBUG (10): Periodic Timer at 0:3:2.598632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:66
+DEBUG (6): Periodic Timer at 0:3:2.708007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:67
+DEBUG (2): Periodic Timer at 0:3:2.817382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:68
+DEBUG (8): Periodic Timer at 0:3:3.708007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:67
+DEBUG (4): Periodic Timer at 0:3:3.817382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:68
+DEBUG (1): Periodic Timer at 0:3:4.426757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:69
+DEBUG (10): Periodic Timer at 0:3:4.708007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:67
+DEBUG (6): Periodic Timer at 0:3:4.817382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:68
+DEBUG (2): Periodic Timer at 0:3:4.926757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:69
+DEBUG (8): Periodic Timer at 0:3:5.817382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:68
+DEBUG (4): Periodic Timer at 0:3:5.926757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:69
+DEBUG (1): Periodic Timer at 0:3:6.536132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:70
+DEBUG (10): Periodic Timer at 0:3:6.817382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:68
+DEBUG (6): Periodic Timer at 0:3:6.926757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:69
+DEBUG (2): Periodic Timer at 0:3:7.036132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:70
+DEBUG (8): Periodic Timer at 0:3:7.926757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:69
+DEBUG (4): Periodic Timer at 0:3:8.036132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:70
+DEBUG (1): Periodic Timer at 0:3:8.645507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:71
+DEBUG (10): Periodic Timer at 0:3:8.926757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:69
+DEBUG (6): Periodic Timer at 0:3:9.036132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:70
+DEBUG (2): Periodic Timer at 0:3:9.145507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:71
+DEBUG (8): Periodic Timer at 0:3:10.036132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:70
+DEBUG (4): Periodic Timer at 0:3:10.145507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:71
+DEBUG (1): Periodic Timer at 0:3:10.754882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:72
+DEBUG (10): Periodic Timer at 0:3:11.036132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:70
+DEBUG (6): Periodic Timer at 0:3:11.145507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:71
+DEBUG (2): Periodic Timer at 0:3:11.254882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:72
+DEBUG (8): Periodic Timer at 0:3:12.145507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:71
+DEBUG (4): Periodic Timer at 0:3:12.254882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:72
+DEBUG (1): Periodic Timer at 0:3:12.864257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:73
+DEBUG (10): Periodic Timer at 0:3:13.145507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:71
+DEBUG (6): Periodic Timer at 0:3:13.254882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:72
+DEBUG (2): Periodic Timer at 0:3:13.364257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:73
+DEBUG (8): Periodic Timer at 0:3:14.254882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:72
+DEBUG (4): Periodic Timer at 0:3:14.364257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:73
+DEBUG (1): Periodic Timer at 0:3:14.973632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:74
+DEBUG (10): Periodic Timer at 0:3:15.254882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:72
+DEBUG (6): Periodic Timer at 0:3:15.364257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:73
+DEBUG (2): Periodic Timer at 0:3:15.473632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:74
+DEBUG (8): Periodic Timer at 0:3:16.364257823 
+DEBUG (4): Periodic Timer at 0:3:16.473632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:74
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:73
+DEBUG (1): Periodic Timer at 0:3:17.083007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:75
+DEBUG (10): Periodic Timer at 0:3:17.364257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:73
+DEBUG (6): Periodic Timer at 0:3:17.473632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:74
+DEBUG (2): Periodic Timer at 0:3:17.583007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:75
+DEBUG (8): Periodic Timer at 0:3:18.473632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:74
+DEBUG (4): Periodic Timer at 0:3:18.583007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:75
+DEBUG (1): Periodic Timer at 0:3:19.192382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:76
+DEBUG (10): Periodic Timer at 0:3:19.473632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:74
+DEBUG (6): Periodic Timer at 0:3:19.583007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:75
+DEBUG (2): Periodic Timer at 0:3:19.692382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:76
+DEBUG (8): Periodic Timer at 0:3:20.583007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:75
+DEBUG (4): Periodic Timer at 0:3:20.692382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:76
+DEBUG (1): Periodic Timer at 0:3:21.301757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:77
+DEBUG (10): Periodic Timer at 0:3:21.583007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:75
+DEBUG (6): Periodic Timer at 0:3:21.692382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:76
+DEBUG (2): Periodic Timer at 0:3:21.801757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:77
+DEBUG (8): Periodic Timer at 0:3:22.692382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:76
+DEBUG (4): Periodic Timer at 0:3:22.801757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:77
+DEBUG (1): Periodic Timer at 0:3:23.411132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:78
+DEBUG (10): Periodic Timer at 0:3:23.692382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:76
+DEBUG (6): Periodic Timer at 0:3:23.801757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:77
+DEBUG (2): Periodic Timer at 0:3:23.911132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:78
+DEBUG (8): Periodic Timer at 0:3:24.801757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:77
+DEBUG (4): Periodic Timer at 0:3:24.911132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:78
+DEBUG (1): Periodic Timer at 0:3:25.520507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:79
+DEBUG (10): Periodic Timer at 0:3:25.801757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:77
+DEBUG (6): Periodic Timer at 0:3:25.911132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:78
+DEBUG (2): Periodic Timer at 0:3:26.020507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:79
+DEBUG (8): Periodic Timer at 0:3:26.911132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:78
+DEBUG (4): Periodic Timer at 0:3:27.020507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:79
+DEBUG (1): Periodic Timer at 0:3:27.629882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:80
+DEBUG (10): Periodic Timer at 0:3:27.911132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:78
+DEBUG (6): Periodic Timer at 0:3:28.020507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:79
+DEBUG (2): Periodic Timer at 0:3:28.129882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:80
+DEBUG (8): Periodic Timer at 0:3:29.020507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:79
+DEBUG (4): Periodic Timer at 0:3:29.129882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:80
+DEBUG (1): Periodic Timer at 0:3:29.739257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:81
+DEBUG (10): Periodic Timer at 0:3:30.020507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:79
+DEBUG (6): Periodic Timer at 0:3:30.129882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:80
+DEBUG (2): Periodic Timer at 0:3:30.239257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:81
+DEBUG (8): Periodic Timer at 0:3:31.129882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:80
+DEBUG (4): Periodic Timer at 0:3:31.239257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:81
+DEBUG (1): Periodic Timer at 0:3:31.848632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:82
+DEBUG (10): Periodic Timer at 0:3:32.129882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:80
+DEBUG (6): Periodic Timer at 0:3:32.239257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:81
+DEBUG (2): Periodic Timer at 0:3:32.348632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:82
+DEBUG (8): Periodic Timer at 0:3:33.239257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:81
+DEBUG (4): Periodic Timer at 0:3:33.348632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:82
+DEBUG (1): Periodic Timer at 0:3:33.958007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:83
+DEBUG (10): Periodic Timer at 0:3:34.239257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:81
+DEBUG (6): Periodic Timer at 0:3:34.348632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:82
+DEBUG (2): Periodic Timer at 0:3:34.458007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:83
+DEBUG (8): Periodic Timer at 0:3:35.348632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:82
+DEBUG (4): Periodic Timer at 0:3:35.458007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:83
+DEBUG (1): Periodic Timer at 0:3:36.067382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:84
+DEBUG (10): Periodic Timer at 0:3:36.348632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:82
+DEBUG (6): Periodic Timer at 0:3:36.458007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:83
+DEBUG (2): Periodic Timer at 0:3:36.567382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:84
+DEBUG (8): Periodic Timer at 0:3:37.458007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:83
+DEBUG (4): Periodic Timer at 0:3:37.567382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:84
+DEBUG (1): Periodic Timer at 0:3:38.176757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:85
+DEBUG (10): Periodic Timer at 0:3:38.458007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:83
+DEBUG (6): Periodic Timer at 0:3:38.567382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:84
+DEBUG (2): Periodic Timer at 0:3:38.676757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:85
+DEBUG (8): Periodic Timer at 0:3:39.567382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:84
+DEBUG (4): Periodic Timer at 0:3:39.676757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:85
+DEBUG (1): Periodic Timer at 0:3:40.286132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:86
+DEBUG (10): Periodic Timer at 0:3:40.567382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:84
+DEBUG (6): Periodic Timer at 0:3:40.676757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:85
+DEBUG (2): Periodic Timer at 0:3:40.786132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:86
+DEBUG (8): Periodic Timer at 0:3:41.676757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:85
+DEBUG (4): Periodic Timer at 0:3:41.786132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:86
+DEBUG (1): Periodic Timer at 0:3:42.395507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:87
+DEBUG (10): Periodic Timer at 0:3:42.676757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:85
+DEBUG (6): Periodic Timer at 0:3:42.786132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:86
+DEBUG (2): Periodic Timer at 0:3:42.895507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:87
+DEBUG (8): Periodic Timer at 0:3:43.786132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:86
+DEBUG (4): Periodic Timer at 0:3:43.895507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:87
+DEBUG (1): Periodic Timer at 0:3:44.504882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:88
+DEBUG (10): Periodic Timer at 0:3:44.786132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:86
+DEBUG (6): Periodic Timer at 0:3:44.895507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:87
+DEBUG (2): Periodic Timer at 0:3:45.004882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:88
+DEBUG (8): Periodic Timer at 0:3:45.895507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:87
+DEBUG (4): Periodic Timer at 0:3:46.004882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:88
+DEBUG (1): Periodic Timer at 0:3:46.614257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:89
+DEBUG (10): Periodic Timer at 0:3:46.895507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:87
+DEBUG (6): Periodic Timer at 0:3:47.004882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:88
+DEBUG (2): Periodic Timer at 0:3:47.114257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:89
+DEBUG (8): Periodic Timer at 0:3:48.004882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:88
+DEBUG (4): Periodic Timer at 0:3:48.114257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:89
+DEBUG (1): Periodic Timer at 0:3:48.723632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:90
+DEBUG (10): Periodic Timer at 0:3:49.004882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:88
+DEBUG (6): Periodic Timer at 0:3:49.114257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:89
+DEBUG (2): Periodic Timer at 0:3:49.223632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:90
+DEBUG (8): Periodic Timer at 0:3:50.114257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:89
+DEBUG (4): Periodic Timer at 0:3:50.223632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:90
+DEBUG (1): Periodic Timer at 0:3:50.833007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:91
+DEBUG (10): Periodic Timer at 0:3:51.114257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:89
+DEBUG (6): Periodic Timer at 0:3:51.223632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:90
+DEBUG (2): Periodic Timer at 0:3:51.333007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:91
+DEBUG (8): Periodic Timer at 0:3:52.223632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:90
+DEBUG (4): Periodic Timer at 0:3:52.333007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:91
+DEBUG (1): Periodic Timer at 0:3:52.942382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:92
+DEBUG (10): Periodic Timer at 0:3:53.223632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:90
+DEBUG (6): Periodic Timer at 0:3:53.333007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:91
+DEBUG (2): Periodic Timer at 0:3:53.442382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:92
+DEBUG (8): Periodic Timer at 0:3:54.333007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:91
+DEBUG (4): Periodic Timer at 0:3:54.442382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:92
+DEBUG (1): Periodic Timer at 0:3:55.051757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:93
+DEBUG (10): Periodic Timer at 0:3:55.333007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:91
+DEBUG (6): Periodic Timer at 0:3:55.442382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:92
+DEBUG (2): Periodic Timer at 0:3:55.551757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:93
+DEBUG (8): Periodic Timer at 0:3:56.442382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:92
+DEBUG (4): Periodic Timer at 0:3:56.551757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:93
+DEBUG (1): Periodic Timer at 0:3:57.161132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:94
+DEBUG (10): Periodic Timer at 0:3:57.442382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:92
+DEBUG (6): Periodic Timer at 0:3:57.551757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:93
+DEBUG (2): Periodic Timer at 0:3:57.661132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:94
+DEBUG (8): Periodic Timer at 0:3:58.551757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:93
+DEBUG (4): Periodic Timer at 0:3:58.661132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:94
+DEBUG (1): Periodic Timer at 0:3:59.270507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:95
+DEBUG (10): Periodic Timer at 0:3:59.551757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:93
+DEBUG (6): Periodic Timer at 0:3:59.661132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:94
+DEBUG (2): Periodic Timer at 0:3:59.770507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:95
+DEBUG (8): Periodic Timer at 0:4:0.661132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:94
+DEBUG (4): Periodic Timer at 0:4:0.770507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:95
+DEBUG (1): Periodic Timer at 0:4:1.379882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:96
+DEBUG (10): Periodic Timer at 0:4:1.661132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:94
+DEBUG (6): Periodic Timer at 0:4:1.770507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:95
+DEBUG (2): Periodic Timer at 0:4:1.879882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:96
+DEBUG (8): Periodic Timer at 0:4:2.770507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:95
+DEBUG (4): Periodic Timer at 0:4:2.879882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:96
+DEBUG (1): Periodic Timer at 0:4:3.489257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:97
+DEBUG (10): Periodic Timer at 0:4:3.770507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:95
+DEBUG (6): Periodic Timer at 0:4:3.879882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:96
+DEBUG (2): Periodic Timer at 0:4:3.989257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:97
+DEBUG (8): Periodic Timer at 0:4:4.879882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:96
+DEBUG (4): Periodic Timer at 0:4:4.989257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:97
+DEBUG (1): Periodic Timer at 0:4:5.598632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:98
+DEBUG (10): Periodic Timer at 0:4:5.879882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:96
+DEBUG (6): Periodic Timer at 0:4:5.989257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:97
+DEBUG (2): Periodic Timer at 0:4:6.098632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:98
+DEBUG (8): Periodic Timer at 0:4:6.989257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:97
+DEBUG (4): Periodic Timer at 0:4:7.098632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:98
+DEBUG (1): Periodic Timer at 0:4:7.708007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:99
+DEBUG (10): Periodic Timer at 0:4:7.989257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:97
+DEBUG (6): Periodic Timer at 0:4:8.098632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:98
+DEBUG (2): Periodic Timer at 0:4:8.208007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:99
+DEBUG (8): Periodic Timer at 0:4:9.098632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:98
+DEBUG (4): Periodic Timer at 0:4:9.208007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:99
+DEBUG (1): Periodic Timer at 0:4:9.817382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:100
+DEBUG (10): Periodic Timer at 0:4:10.098632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:98
+DEBUG (6): Periodic Timer at 0:4:10.208007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:99
+DEBUG (2): Periodic Timer at 0:4:10.317382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:100
+DEBUG (8): Periodic Timer at 0:4:11.208007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:99
+DEBUG (4): Periodic Timer at 0:4:11.317382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:100
+DEBUG (1): Periodic Timer at 0:4:11.926757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:101
+DEBUG (10): Periodic Timer at 0:4:12.208007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:99
+DEBUG (6): Periodic Timer at 0:4:12.317382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:100
+DEBUG (2): Periodic Timer at 0:4:12.426757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:101
+DEBUG (8): Periodic Timer at 0:4:13.317382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:100
+DEBUG (4): Periodic Timer at 0:4:13.426757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:101
+DEBUG (1): Periodic Timer at 0:4:14.036132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:102
+DEBUG (10): Periodic Timer at 0:4:14.317382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:100
+DEBUG (6): Periodic Timer at 0:4:14.426757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:101
+DEBUG (2): Periodic Timer at 0:4:14.536132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:102
+DEBUG (8): Periodic Timer at 0:4:15.426757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:101
+DEBUG (4): Periodic Timer at 0:4:15.536132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:102
+DEBUG (1): Periodic Timer at 0:4:16.145507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:103
+DEBUG (10): Periodic Timer at 0:4:16.426757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:101
+DEBUG (6): Periodic Timer at 0:4:16.536132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:102
+DEBUG (2): Periodic Timer at 0:4:16.645507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:103
+DEBUG (8): Periodic Timer at 0:4:17.536132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:102
+DEBUG (4): Periodic Timer at 0:4:17.645507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:103
+DEBUG (1): Periodic Timer at 0:4:18.254882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:104
+DEBUG (10): Periodic Timer at 0:4:18.536132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:102
+DEBUG (6): Periodic Timer at 0:4:18.645507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:103
+DEBUG (2): Periodic Timer at 0:4:18.754882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:104
+DEBUG (8): Periodic Timer at 0:4:19.645507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:103
+DEBUG (4): Periodic Timer at 0:4:19.754882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:104
+DEBUG (1): Periodic Timer at 0:4:20.364257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:105
+DEBUG (10): Periodic Timer at 0:4:20.645507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:103
+DEBUG (6): Periodic Timer at 0:4:20.754882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:104
+DEBUG (2): Periodic Timer at 0:4:20.864257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:105
+DEBUG (8): Periodic Timer at 0:4:21.754882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:104
+DEBUG (4): Periodic Timer at 0:4:21.864257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:105
+DEBUG (1): Periodic Timer at 0:4:22.473632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:106
+DEBUG (10): Periodic Timer at 0:4:22.754882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:104
+DEBUG (6): Periodic Timer at 0:4:22.864257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:105
+DEBUG (2): Periodic Timer at 0:4:22.973632823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:106
+DEBUG (8): Periodic Timer at 0:4:23.864257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:105
+DEBUG (4): Periodic Timer at 0:4:23.973632823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:106
+DEBUG (1): Periodic Timer at 0:4:24.583007823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:107
+DEBUG (10): Periodic Timer at 0:4:24.864257823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:105
+DEBUG (6): Periodic Timer at 0:4:24.973632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:106
+DEBUG (2): Periodic Timer at 0:4:25.083007823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:107
+DEBUG (8): Periodic Timer at 0:4:25.973632823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:106
+DEBUG (4): Periodic Timer at 0:4:26.083007823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:107
+DEBUG (1): Periodic Timer at 0:4:26.692382823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:108
+DEBUG (10): Periodic Timer at 0:4:26.973632823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:106
+DEBUG (6): Periodic Timer at 0:4:27.083007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:107
+DEBUG (2): Periodic Timer at 0:4:27.192382823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:108
+DEBUG (8): Periodic Timer at 0:4:28.083007823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:107
+DEBUG (4): Periodic Timer at 0:4:28.192382823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:108
+DEBUG (1): Periodic Timer at 0:4:28.801757823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:109
+DEBUG (10): Periodic Timer at 0:4:29.083007823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:107
+DEBUG (6): Periodic Timer at 0:4:29.192382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:108
+DEBUG (2): Periodic Timer at 0:4:29.301757823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:109
+DEBUG (8): Periodic Timer at 0:4:30.192382823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:108
+DEBUG (4): Periodic Timer at 0:4:30.301757823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:109
+DEBUG (1): Periodic Timer at 0:4:30.911132823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:110
+DEBUG (10): Periodic Timer at 0:4:31.192382823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:108
+DEBUG (6): Periodic Timer at 0:4:31.301757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:109
+DEBUG (2): Periodic Timer at 0:4:31.411132823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:110
+DEBUG (8): Periodic Timer at 0:4:32.301757823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:109
+DEBUG (4): Periodic Timer at 0:4:32.411132823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:110
+DEBUG (1): Periodic Timer at 0:4:33.020507823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:111
+DEBUG (10): Periodic Timer at 0:4:33.301757823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:109
+DEBUG (6): Periodic Timer at 0:4:33.411132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:110
+DEBUG (2): Periodic Timer at 0:4:33.520507823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:111
+DEBUG (8): Periodic Timer at 0:4:34.411132823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:110
+DEBUG (4): Periodic Timer at 0:4:34.520507823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:111
+DEBUG (1): Periodic Timer at 0:4:35.129882823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:112
+DEBUG (10): Periodic Timer at 0:4:35.411132823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:110
+DEBUG (6): Periodic Timer at 0:4:35.520507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:111
+DEBUG (2): Periodic Timer at 0:4:35.629882823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:112
+DEBUG (8): Periodic Timer at 0:4:36.520507823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:111
+DEBUG (4): Periodic Timer at 0:4:36.629882823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:112
+DEBUG (1): Periodic Timer at 0:4:37.239257823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:113
+DEBUG (10): Periodic Timer at 0:4:37.520507823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:111
+DEBUG (6): Periodic Timer at 0:4:37.629882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:112
+DEBUG (2): Periodic Timer at 0:4:37.739257823 
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:2 Retransmissions:0 SensedMsg:6 Count:113
+DEBUG (8): Periodic Timer at 0:4:38.629882823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:8 Retransmissions:2 SensedMsg:24 Count:112
+DEBUG (4): Periodic Timer at 0:4:38.739257823 
+DEBUG (2): Aggregate: RelaySensedMsg:18
+DEBUG (2): RelaySensedMsg: 18
+DEBUG (0): Acked:0									Periodic Message received from 2 
+ 					Node:4 Retransmissions:0 SensedMsg:18 Count:113
+DEBUG (1): Periodic Timer at 0:4:39.348632823 
+DEBUG (1): 					 Node 1 Periodic Timer
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:1 Retransmissions:2 SensedMsg:3 Count:114
+DEBUG (10): Periodic Timer at 0:4:39.629882823 
+DEBUG (0): Acked:0									Periodic Message received from 10 
+ 					Node:10 Retransmissions:1 SensedMsg:30 Count:112
+DEBUG (6): Periodic Timer at 0:4:39.739257823 
+DEBUG (0): Acked:0									Periodic Message received from 1 
+ 					Node:6 Retransmissions:0 SensedMsg:18 Count:113
