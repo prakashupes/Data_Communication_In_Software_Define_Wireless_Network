@@ -2,7 +2,7 @@
 #define PACKETS
 class Header
 {
-    int length,id,src,des,TYP;
+    int length=10,id,src,des,TYP; //id =packet Id
     //next hop
     //if next hop== dst stop
     // routing table calculate by dijik

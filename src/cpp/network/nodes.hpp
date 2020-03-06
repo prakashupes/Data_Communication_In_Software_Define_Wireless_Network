@@ -1,3 +1,4 @@
+#include "routingTable.hpp"
 #ifndef NODE
 #define NODE
 
@@ -7,7 +8,7 @@ class Node
     int id;
     int data; //char queue  p p2 p
     int weight;
-    int table[2][2];
+    RoutingTable table;
     //range
     //nearby node
 

@@ -1,8 +1,8 @@
 #include<iostream>
 
 
-#include"nodes.hpp"
-#include "graph.hpp"
+#include"network/nodes.hpp"
+#include "network/graph.hpp"
 //using namespace std;
 
 int main()

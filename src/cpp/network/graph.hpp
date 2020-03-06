@@ -26,7 +26,7 @@ class Graph
     {
         adjList[src].push_back(des);
         adjList[des].push_back(src);
-        info[src].name=src;
+        info[src].id=src;
 
     }
     void setInfo(int node)
