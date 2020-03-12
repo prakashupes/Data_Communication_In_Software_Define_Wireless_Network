@@ -3,25 +3,21 @@
 
 #include"network/nodes.hpp"
 #include "network/graph.hpp"
+#include "network/Packates.hpp"
+#include "routing/topology.hpp"
 //using namespace std;
 
 int main()
 {
     int vertex=10;
     Graph g(vertex);
-    int i=1;
-    while(i<(vertex*4)-vertex)
-    {
-        int u=(rand()%vertex);
-        int v=(rand()%vertex);
-        if(u!=v)
-        {
-            i++;
-            //cout<<u<<", "<<v<<endl;
-            g.addEdge(u,v);
-        }
+    Topology topology;
+    topology.create_Network(g);
+    topology.view_Network(g);
 
-    }
-    g.printList();
-    g.getInfo(5);
+    Packet packet;
+    packet.setMessage();
+    packet.setHeaderInfo();
+
+
 }

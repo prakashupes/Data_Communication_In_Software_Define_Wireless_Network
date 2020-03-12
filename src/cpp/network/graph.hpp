@@ -26,13 +26,10 @@ class Graph
     {
         adjList[src].push_back(des);
         adjList[des].push_back(src);
-        info[src].id=src;
+        info[src].Node_id=src;
 
     }
-    void setInfo(int node)
-    {
 
-    }
     void getInfo(int node)
     {
         cout<<"Neighbours are\n";
@@ -42,7 +39,7 @@ class Graph
             cout<<x<<" ";
         }
         cout<<endl;
-        cout<<"Data of node "<<info[node].data<<endl;
+       // cout<<"Data of node "<<info[node].data<<endl;
 
 
     }

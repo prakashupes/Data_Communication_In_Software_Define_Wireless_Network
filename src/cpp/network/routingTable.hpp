@@ -10,10 +10,12 @@ class RoutingTable
     //from src to dist execute diji
     //use 30 sec update table
     // src to desti
-    action --> forwad, drop, pause
-    TTL
+    //action --> forwad, drop, pause
+    //TTL
     //
-thred for parellerprogramming
+//thred for parellerprogramming
+
+//Make exception for src and desi
 
 };
 
