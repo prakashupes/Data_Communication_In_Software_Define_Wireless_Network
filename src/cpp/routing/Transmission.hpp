@@ -16,13 +16,13 @@ class Transmission
         do
         {
             current.nodePacket=packet;
-            cout<<"Status: \nPacket reached at"<<current.Node_id;
+            cout<<"\nStatus: \nPacket reached at"<<current.Node_id<<endl;
 
-            int nextHopeId=current.Routing_Table[current];
+            int nextHopeId=current.Routing_Table[current.Node_id];
             Node nextHope=g.individual_Nodes[nextHopeId];
 
             cout<<"Packet Sent to"<<nextHopeId<<endl;
-            if(current.range>g.adjList[current.Node_id][nextHopeId])
+            if(current.range < g.adjList[current.Node_id][nextHopeId])
             {
                 cout<<"Next Hope is out of range!!!"<<endl;
                 cout<<"Packet lost at "<<current.Node_id<<endl;
@@ -46,6 +46,16 @@ class Transmission
 
         }
         while(current.Node_id!=des);
+
+        cout<<"**Transmission Success**"<<endl;
+        cout<<"path: " ;
+
+        for(auto x:current.Routing_Table)
+        {
+            cout<<x.first<<" ->";
+        }
+
+        cout<<des;
 
     }
 

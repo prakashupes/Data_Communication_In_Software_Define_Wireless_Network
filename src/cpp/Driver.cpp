@@ -25,6 +25,10 @@ int main()
     packet.setHeaderInfo();
 
     g.genrateTable(packet.getSource(),packet.getDesti());
+    g.setTable();
+
+    Transmission t;
+    t.startTransmission(g,packet);
 
     //Print routing tabele
    /* for(auto x:g.Routing_Table)

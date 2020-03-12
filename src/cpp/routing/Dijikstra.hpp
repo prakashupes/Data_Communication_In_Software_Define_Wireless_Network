@@ -68,6 +68,7 @@ stack<int> shortest_path(map<int ,map<int,int>> adjList,int src,int des,int v)
 
     //cout<<weigth[des];
 
+    cout<<"Total Cost Required For this Transmission :"<<weigth[des]<<endl;
     return s;
 
 }
