@@ -63,6 +63,10 @@ class Packet
     {
         return header.des;
     }
+    string getMessage()
+    {
+        return payload;
+    }
 
 
 };
