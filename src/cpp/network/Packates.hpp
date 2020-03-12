@@ -1,6 +1,7 @@
 #include<iostream>
 #ifndef PACKETS
 #define PACKETS
+using namespace std;
 class Header
 {
     public:
@@ -53,6 +54,10 @@ class Packet
         header.TYP=0; //TYP 0 means msg container
 
 
+    }
+    int getSource()
+    {
+        return header.src;
     }
 
 

@@ -1,8 +1,10 @@
+#include<map>
+#include<iostream>
 #ifndef ROUTING
 #define ROUTING
 class RoutingTable
 {
-    int nextHope;
+    //int nextHope;
     //route
     //controller func paket 1
     //send to controller /
@@ -16,6 +18,9 @@ class RoutingTable
 //thred for parellerprogramming
 
 //Make exception for src and desi
+    public:
+  //  map<int,int> route;
+  //  RoutingTable
 
 };
 

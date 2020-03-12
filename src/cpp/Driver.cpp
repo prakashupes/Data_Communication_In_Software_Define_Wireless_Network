@@ -5,6 +5,7 @@
 #include "network/graph.hpp"
 #include "network/Packates.hpp"
 #include "routing/topology.hpp"
+#include "routing/Dijikstra.hpp"
 //using namespace std;
 
 int main()
@@ -15,9 +16,16 @@ int main()
     topology.create_Network(g);
     topology.view_Network(g);
 
+    Dijikstra d;
+    d.shortest_path(g,2,8);
+
     Packet packet;
     packet.setMessage();
     packet.setHeaderInfo();
+
+    g.individual_Nodes[packet.getSource()].nodePacket=packet;
+   // while(packet.)
+
 
 
 }
