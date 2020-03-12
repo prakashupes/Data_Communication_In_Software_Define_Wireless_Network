@@ -59,6 +59,10 @@ class Packet
     {
         return header.src;
     }
+    int getDesti()
+    {
+        return header.des;
+    }
 
 
 };

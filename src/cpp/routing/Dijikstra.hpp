@@ -26,9 +26,9 @@ int findMin( map<int,bool> &visited, map<int,int> &weigth,int v)
     return minWtNode;
 
 }
-stack<int> shortest_path(Graph g,int src,int des)
+stack<int> shortest_path(map<int ,map<int,int>> adjList,int src,int des,int v)
 {
-    int v=g.vertex;
+   // int v=g.vertex;
     map<int,bool> visited;
     map<int, int> parent;
     map<int,int> weigth;
@@ -43,7 +43,7 @@ stack<int> shortest_path(Graph g,int src,int des)
     {
         int minWtNode=findMin(visited,weigth,v);
         visited[minWtNode]=true;
-        for(auto neigh: g.adjList[minWtNode])
+        for(auto neigh: adjList[minWtNode])
         {
             if(!visited[neigh.first]) //negh.first represents destination, 0->1 1 is neigh.first
             {
@@ -61,7 +61,7 @@ stack<int> shortest_path(Graph g,int src,int des)
     int i=des;
     while(s.top()!=src)
     {
-        cout<<"->"<<parent[s.top()];
+       // cout<<"->"<<parent[s.top()];
         s.push(parent[s.top()]);
     }
 

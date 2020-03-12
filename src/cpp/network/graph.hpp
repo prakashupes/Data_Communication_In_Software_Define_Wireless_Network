@@ -3,66 +3,19 @@
 #include <algorithm>
 #include <map>
 #include <list>
-
+#include<stack>
+#include "../routing/Dijikstra.hpp"
 #ifndef GRAPH
 #define GRAPH
 using namespace std;
-/*class Graph
-{
-    int vertex;
-    map<int ,list<int>> adjList; //use extern
-    public:
-    Node *individual_Nodes; //It contains all the enformation about each nodes
 
-
-    Graph(int v) :vertex {v}
-    {
-        //this->vertex=v;
-        individual_Nodes=new Node[v]; //Here all individual nodes created
-        for(int i=0;i<v;i++)
-        {
-            individual_Nodes[i].Node_id=i;
-        }
-
-    }
-
-    void addEdge(int src,int des) //Let graph is bidirectional
-    {
-        adjList[src].push_back(des);
-        adjList[des].push_back(src);
-       // info[src].Node_id=src;
-
-    }
-
-    void getInfo(int node)
-    {
-
-
-
-    }
-    void printList()
-    {
-
-        for(auto x:adjList)
-
-        {
-            cout<<x.first<<" ->: ";
-            for(int y:adjList[x.first])
-            {
-                cout<<y<<" ";
-            }
-            cout<<endl;
-        }
-    }
-
-};
-*/
 
 class Graph
 {
     public:
     int vertex;
-    map<int ,list<pair<int,int>>> adjList; //use extern
+    map<int ,map<int,int>> adjList; //use extern
+    map<int,int> Routing_Table; //int->current node, int ->nextHope
 
     Node *individual_Nodes; //It contains all the enformation about each nodes
 
@@ -80,8 +33,9 @@ class Graph
 
     void addEdge(int src,int des,int wt) //Let graph is bidirectional
     {
-        adjList[src].push_back(make_pair(des,wt));
-        adjList[des].push_back(make_pair(src,wt));
+        adjList[src][des]=wt;
+        adjList[des][src]=wt;
+
        // info[src].Node_id=src;
 
     }
@@ -104,6 +58,34 @@ class Graph
                 cout<<"( "<<y.first<<", "<<y.second<<")";
             }
             cout<<endl;
+        }
+    }
+
+    //here routing table is genrated
+    void genrateTable(int src,int des)
+    {
+        Dijikstra d;
+        stack<int> s=d.shortest_path(this->adjList,src,des,vertex);
+
+        while(!s.empty())
+        {
+            int i=s.top();
+            s.pop();
+            if(des!=i)
+            {
+                Routing_Table [i]=s.top();
+            }
+        }
+
+
+    }
+
+    //Set table to each node
+    void setTable()
+    {
+        for(int i=0;i<vertex;i++)
+        {
+            individual_Nodes[i].Routing_Table=Routing_Table;
         }
     }
 

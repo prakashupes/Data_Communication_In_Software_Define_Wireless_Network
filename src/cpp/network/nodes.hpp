@@ -9,7 +9,7 @@ class Node
     int Node_id;
    // int data; //char queue  p p2 p
    // int weight;
-    RoutingTable table;
+     map<int,int> Routing_Table;
     int range=10;
     Packet nodePacket;
 

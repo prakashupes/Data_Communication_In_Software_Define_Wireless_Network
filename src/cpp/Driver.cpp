@@ -17,12 +17,21 @@ int main()
     topology.view_Network(g);
 
     Dijikstra d;
-    d.shortest_path(g,2,8);
+//    d.shortest_path(g,2,8);
 
     Packet packet;
     packet.setMessage();
     packet.setHeaderInfo();
 
+    g.genrateTable(packet.getSource(),packet.getDesti());
+
+    //Print routing tabele
+   /* for(auto x:g.Routing_Table)
+    {
+        cout<<x.first<<" "<<x.second<<endl;
+
+    }
+    */
     g.individual_Nodes[packet.getSource()].nodePacket=packet;
    // while(packet.)
 
