@@ -10,7 +10,7 @@ class Node
    // int data; //char queue  p p2 p
    // int weight;
      map<int,int> Routing_Table;
-    int range=10;
+    int range=1;
     Packet nodePacket;
 
     //means it can access node inside the range of 10unit

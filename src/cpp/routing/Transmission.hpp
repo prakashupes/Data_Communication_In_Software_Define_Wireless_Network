@@ -24,7 +24,7 @@ class Transmission
             cout<<"Packet Sent to"<<nextHopeId<<endl;
             if(current.range < g.adjList[current.Node_id][nextHopeId])
             {
-                cout<<"Next Hope is out of range!!!"<<endl;
+                cout<<"\nNext Hope is out of range!!!"<<endl;
                 cout<<"Packet lost at "<<current.Node_id<<endl;
                 cout<<"Head Info:"<<endl;
                 cout<<"Source :"<<packet.getSource()<<endl;

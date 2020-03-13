@@ -5,7 +5,7 @@ class Topology
 {
     int vertex=10;
     public:
-    /*void create_Network(Graph & g) //It will create a graph
+    void create_Network(Graph & g) //It will create a graph
     {
         int i=1;
     while(i<(vertex*4)-vertex)
@@ -24,12 +24,13 @@ class Topology
     }
 
 
-    */
+   
     void view_Network(Graph g)
 
     {
         g.printList();
     }
+    /*
     void create_Network(Graph & g)
     {
         g.addEdge(0,1,8);
@@ -55,6 +56,7 @@ class Topology
         g.addEdge(9,10,11);
 
     }
+     */
 
 };
 
