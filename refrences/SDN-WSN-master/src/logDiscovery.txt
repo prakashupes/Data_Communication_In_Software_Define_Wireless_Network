@@ -1,7 +1,0 @@
-DEBUG (0): 0 7 12
-DEBUG (10): 10 7 4
-DEBUG (8): 8 4 2
-DEBUG (1): 1 10 14
-DEBUG (6): 6 4 2
-DEBUG (4): 4 8 4
-DEBUG (2): 2 8 7
