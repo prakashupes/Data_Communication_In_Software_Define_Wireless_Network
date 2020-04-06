@@ -12,7 +12,7 @@
 int main()
 {
     int vertex=10;
-   // Graph g(vertex);
+    Graph g(vertex);
     Topology topology;
     topology.create_Network(g);
     topology.view_Network(g);
