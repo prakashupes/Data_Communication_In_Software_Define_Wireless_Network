@@ -37,7 +37,7 @@ int main()
 
     }
     */
-    g.individual_Nodes[packet.getSource()].nodePacket=packet;
+   // g.individual_Nodes[packet.getSource()].nodePacket=packet;
    // while(packet.)
 
 
