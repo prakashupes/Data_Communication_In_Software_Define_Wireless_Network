@@ -1,12 +1,55 @@
+#include "Dijikstra.hpp"
+#include "../network/graph.hpp"
 #include<map>
-#include<iostream>
 #ifndef ROUTING
 #define ROUTING
 
 //We are using link state routing
-class RoutingProtocol
+class Routing
 {
-    //int nextHope;
+
+    public:
+   // map<int,int> routing_table;
+  //  RoutingTable
+  map<int,int> Routing_Table;
+   void genrateTable(int src,int des)
+    {
+        Dijikstra d;
+        stack<int> s=d.shortest_path(this->adjList,src,des,vertex);
+
+        while(!s.empty())
+        {
+            int i=s.top();
+            s.pop();
+            if(des!=i)
+            {
+                Routing_Table [i]=s.top();
+            }
+        }
+
+
+    }
+
+    //Set table to each node
+    void setTable(Graph &g)
+    {
+
+        for(int i=0;i<vertex;i++)
+        {
+            g.individual_Nodes[i].Routing_Table=Routing_Table;
+        }
+
+    }
+
+};
+
+
+
+
+#endif // ROUTING
+
+
+   //int nextHope;
     //route
     //controller func paket 1
     //send to controller /
@@ -20,13 +63,3 @@ class RoutingProtocol
 //thred for parellerprogramming
 
 //Make exception for src and desi
-    public:
-   // map<int,int> routing_table;
-  //  RoutingTable
-
-};
-
-
-
-
-#endif // ROUTING
