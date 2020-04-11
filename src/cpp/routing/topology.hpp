@@ -28,6 +28,7 @@ class Topology
     void view_Network(Graph g)
 
     {
+    	cout<<"Structure of WSN in from of graph: \n"<<endl;
         g.printList();
     }
     /*

@@ -40,12 +40,7 @@ class Graph
 
     }
 
-    void getInfo(int node)
-    {
-
-
-
-    }
+    
     void printList()
     {
 
@@ -73,7 +68,7 @@ class Graph
             s.pop();
             if(des!=i)
             {
-                Routing_Table [i]=s.top();
+                Routing_Table [i]=s.top();`
             }
         }
 
