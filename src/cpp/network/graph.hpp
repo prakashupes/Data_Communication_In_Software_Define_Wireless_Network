@@ -40,12 +40,7 @@ class Graph
 
     }
 
-    void getInfo(int node)
-    {
-
-
-
-    }
+    
     void printList()
     {
 
@@ -62,7 +57,7 @@ class Graph
     }
 
     //here routing table is genrated
-   
+
 
 };
 

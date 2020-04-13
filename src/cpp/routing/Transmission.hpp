@@ -48,8 +48,9 @@ class Transmission
         }
         while(current.Node_id!=des);
 
-        cout<<"**Transmission Success**"<<endl;
-        cout<<"path: " ;
+        cout<<"**Transmission Success***\n Packet reached succesfully"<<endl;
+
+        cout<<"Path info: " ;
 
         for(auto x:current.Routing_Table)
         {

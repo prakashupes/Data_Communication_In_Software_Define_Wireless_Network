@@ -32,8 +32,9 @@ int main()
     t.startTransmission(g,packet);
 
 
+
     g.individual_Nodes[packet.getSource()].nodePacket=packet;
-   // while(packet.)
+
 
 
 
