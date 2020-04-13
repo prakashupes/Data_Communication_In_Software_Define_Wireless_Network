@@ -25,7 +25,7 @@ int main()
     packet.setHeaderInfo();
 
     Routing r;
-    r.genrateTable(packet.getSource(),packet.getDesti());
+    r.genrateTable(packet.getSource(),packet.getDesti(),g);
     r.setTable(g);
 
     Transmission t;

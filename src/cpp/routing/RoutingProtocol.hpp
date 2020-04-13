@@ -12,10 +12,10 @@ class Routing
    // map<int,int> routing_table;
   //  RoutingTable
   map<int,int> Routing_Table;
-   void genrateTable(int src,int des)
+   void genrateTable(int src,int des,Graph &g)
     {
         Dijikstra d;
-        stack<int> s=d.shortest_path(this->adjList,src,des,vertex);
+        stack<int> s=d.shortest_path(g.adjList,src,des,g.vertex);
 
         while(!s.empty())
         {
@@ -34,7 +34,7 @@ class Routing
     void setTable(Graph &g)
     {
 
-        for(int i=0;i<vertex;i++)
+        for(int i=0;i<g.vertex;i++)
         {
             g.individual_Nodes[i].Routing_Table=Routing_Table;
         }
