@@ -1,12 +1,12 @@
 #include<iostream>
 
-
 #include"network/nodes.hpp"
 #include "network/graph.hpp"
 #include "network/Packates.hpp"
 #include "routing/topology.hpp"
-#include "routing/Dijikstra.hpp"
 #include "routing/Transmission.hpp"
+#include "routing/RoutingProtocol.hpp"
+
 //using namespace std;
 
 int main()
@@ -24,20 +24,18 @@ int main()
     packet.setMessage();
     packet.setHeaderInfo();
 
-    g.genrateTable(packet.getSource(),packet.getDesti());
-    g.setTable();
+    Routing r;
+    r.genrateTable(packet.getSource(),packet.getDesti(),g);
+    r.setTable(g);
 
     Transmission t;
     t.startTransmission(g,packet);
 
-    //Print routing tabele
-   /* for(auto x:g.Routing_Table)
-    {
-        cout<<x.first<<" "<<x.second<<endl;
 
-    }
-    */
-   // g.individual_Nodes[packet.getSource()].nodePacket=packet;
-   // while(packet.)
+
+    g.individual_Nodes[packet.getSource()].nodePacket=packet;
+
+
+
 
 }

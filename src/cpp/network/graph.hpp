@@ -15,7 +15,7 @@ class Graph
     public:
     int vertex;
     map<int ,map<int,int>> adjList; //use extern
-    map<int,int> Routing_Table; //int->current node, int ->nextHope
+     //int->current node, int ->nextHope
 
     Node *individual_Nodes; //It contains all the enformation about each nodes
 
@@ -57,33 +57,7 @@ class Graph
     }
 
     //here routing table is genrated
-    void genrateTable(int src,int des)
-    {
-        Dijikstra d;
-        stack<int> s=d.shortest_path(this->adjList,src,des,vertex);
 
-        while(!s.empty())
-        {
-            int i=s.top();
-            s.pop();
-            if(des!=i)
-            {
-                Routing_Table [i]=s.top();`
-            }
-        }
-
-
-    }
-
-    //Set table to each node
-    void setTable()
-    {
-        for(int i=0;i<vertex;i++)
-        {
-            individual_Nodes[i].Routing_Table=Routing_Table;
-        }
-
-    }
 
 };
 
