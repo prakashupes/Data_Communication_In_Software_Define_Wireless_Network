@@ -57,7 +57,8 @@ class Transmission
             cout<<x.first<<" ->";
         }
 
-        cout<<des;
+        cout<<des<<endl;
+        
 
     }
 
