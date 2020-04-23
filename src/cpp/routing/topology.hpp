@@ -5,6 +5,7 @@ class Topology
 {
     int vertex=10;
     public:
+    //dynamic network
     void create_Network(Graph & g) //It will create a graph
     {
         int i=1;
@@ -33,6 +34,7 @@ class Topology
         g.printList();
     }
     /*
+    //Static network 
     void create_Network(Graph & g)
     {
         g.addEdge(0,1,8);
