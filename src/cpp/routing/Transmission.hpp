@@ -17,7 +17,7 @@ class Transmission
         do
         {
             current.nodePacket=packet;
-            cout<<"\n\033[1;32mStatus: \033[0m\nPacket reached at"<<current.Node_id<<endl;
+            cout<<"\nStatus: \nPacket reached at"<<current.Node_id<<endl;
 
             int nextHopeId=current.Routing_Table[current.Node_id];
             Node nextHope=g.individual_Nodes[nextHopeId];
