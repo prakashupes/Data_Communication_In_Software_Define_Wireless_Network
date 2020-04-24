@@ -47,7 +47,7 @@ class Graph
         for(auto x:adjList)
 
         {
-            cout<<"\033[1;32m"<<x.first<<"\033[0m \033[1;35m->: \033[0m";
+            cout<<x.first<<" ->: ";
             for(auto y:adjList[x.first])
             {
                 cout<<"( "<<y.first<<", "<<y.second<<")";
