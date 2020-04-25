@@ -5,6 +5,7 @@
 #include <list>
 #include<stack>
 #include "../routing/Dijikstra.hpp"
+#include "../logs/log.hpp"
 #ifndef GRAPH
 #define GRAPH
 using namespace std;
@@ -48,11 +49,14 @@ class Graph
 
         {
             cout<<x.first<<" ->: ";
+            log::out<<x.first<<" ->: ";
             for(auto y:adjList[x.first])
             {
+            	log:: out <<"( "<<y.first<<", "<<y.second<<")";
                 cout<<"( "<<y.first<<", "<<y.second<<")";
             }
             cout<<endl;
+            log::out<<endl;
         }
     }
 

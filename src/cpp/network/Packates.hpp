@@ -1,4 +1,5 @@
 #include<iostream>
+#include "../logs/log.hpp"
 #ifndef PACKETS
 #define PACKETS
 using namespace std;
@@ -25,27 +26,32 @@ class Packet
     void setMessage()
     {
         std::cout<<"Enter Message :";
+        log::out<<"Enter Message :";
         getline(cin,payload);
         //this->payload=msg;
     }
     void setHeaderInfo() //will set information of header
     {
         cout<<"\nEnter Source of message :";
+        log::out<<"\nEnter Source of message :";
         cin>>header.src;
         if(header.src<0 || header.src>9)
         {
             cout<<"Invalid Source: please check network\n";
+            log::out<<"Invalid Desination : please check network\n";
             header.src=0;
             exit(1);
 
         }
 
         cout<<"\nEnter Desti of message :";
+        log::out<<"\nEnter Desti of message :";
         cin>> header.des;
 
          if(header.des<0 || header.des>9)
         {
             cout<<"Invalid Desination : please check network\n";
+            log::out<<"Invalid Desination : please check network\n";
             header.des=0;
             exit(1);
 

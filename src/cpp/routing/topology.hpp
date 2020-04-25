@@ -1,4 +1,5 @@
 #include "../network/graph.hpp"
+#include "../logs/log.hpp"
 #ifndef TOPO
 #define TOPO
 class Topology
@@ -30,6 +31,7 @@ class Topology
 
     {
     	cout<<"Structure of WSN in form of graph: \n"<<endl;
+    	log::out<<"Structure of WSN in form of graph: \n"<<endl;
         g.printList();
     }
     /*
