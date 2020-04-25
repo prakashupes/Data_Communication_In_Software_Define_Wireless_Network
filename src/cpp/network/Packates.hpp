@@ -23,18 +23,16 @@ class Packet
     string payload; //Actual data
     //dijikstra for
     public:
-    void setMessage()
+    void setMessage(string msg)
     {
-        std::cout<<"Enter Message :";
-        log::out<<"Enter Message :";
-        getline(cin,payload);
-        //this->payload=msg;
+        
+        
+        this->payload=msg;
     }
-    void setHeaderInfo() //will set information of header
+    void setHeaderInfo(int id,int src, int des) //will set information of header
     {
-        cout<<"\nEnter Source of message :";
-        log::out<<"\nEnter Source of message :";
-        cin>>header.src;
+        
+        header.src=src;
         if(header.src<0 || header.src>9)
         {
             cout<<"Invalid Source: please check network\n";
@@ -44,9 +42,8 @@ class Packet
 
         }
 
-        cout<<"\nEnter Desti of message :";
-        log::out<<"\nEnter Desti of message :";
-        cin>> header.des;
+      
+         header.des=des;
 
          if(header.des<0 || header.des>9)
         {

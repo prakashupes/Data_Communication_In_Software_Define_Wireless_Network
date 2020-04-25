@@ -10,6 +10,3 @@ Structure of WSN in form of graph:
 7 ->: ( 2, 9)( 4, 11)( 5, 12)( 9, 16)
 8 ->: ( 1, 9)( 2, 10)( 4, 12)
 9 ->: ( 0, 9)( 1, 10)( 2, 11)( 3, 12)( 7, 16)
-Enter Message :
-Enter Source of message :
-Enter Desti of message :
