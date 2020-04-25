@@ -119,8 +119,7 @@ int main()
     		t.startTransmission(g,packet_queue.front());
     		packet_queue.pop();
 	}
-    
->>>>>>> experiment
+
     
 
 
