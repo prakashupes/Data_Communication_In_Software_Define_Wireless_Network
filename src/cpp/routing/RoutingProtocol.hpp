@@ -1,5 +1,6 @@
 #include "Dijikstra.hpp"
 #include "../network/graph.hpp"
+#include "../logs/log.hpp"
 #include<map>
 #ifndef ROUTING
 #define ROUTING
@@ -16,13 +17,14 @@ class Routing
     {
         Dijikstra d;
         stack<int> s=d.shortest_path(g.adjList,src,des,g.vertex);
-
+	
         while(!s.empty())
         {
             int i=s.top();
             s.pop();
             if(des!=i)
             {
+            	table::out<<i<<"         |"<<s.top()<<endl;
                 Routing_Table [i]=s.top();
             }
         }
