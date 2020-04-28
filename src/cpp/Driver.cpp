@@ -123,19 +123,6 @@ int main()
     		cout<<"Tranmission completed\n";
     		packet_queue.pop();
 	}
-	
-	
-	//Using graph view packet queue of destination
-	cout<<"packets at destination \n"<<endl;
-	
-	/*
-	while(!g.individual_Nodes[des].packet_queue.empty())
-	{
-		Packet ppp=g.individual_Nodes[des].packet_queue.front();
-		cout<<ppp.getMessage()<<" "<<ppp.getId()<<" "<<ppp.getSource<<" "<<ppp.getDesti<<endl;
-	
-	}
-	*/
 
     
 

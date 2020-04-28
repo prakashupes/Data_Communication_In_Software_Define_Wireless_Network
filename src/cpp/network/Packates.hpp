@@ -6,9 +6,7 @@ using namespace std;
 class Header
 {
     public:
-    static int id,src,des,TYP; //id =packet Id
-    
-    int length=10;
+    int length=10,id,src,des,TYP; //id =packet Id
     //next hop
     //if next hop== dst stop
     // routing table calculate by dijik
@@ -21,8 +19,8 @@ class Header
 
 class Packet
 {
-    static Header header;
-    static string payload; //Actual data
+    Header header;
+    string payload; //Actual data
     //dijikstra for
     public:
     void setMessage(string msg)
@@ -55,27 +53,22 @@ class Packet
             exit(1);
 
         }
-        header.id=id;
+        header.id=1;
         header.TYP=0; //TYP 0 means msg container
-	
-	
+
 
     }
-    static int getSource()
+    int getSource()
     {
         return header.src;
     }
-    static int getDesti()
+    int getDesti()
     {
         return header.des;
     }
-    static string getMessage()
+    string getMessage()
     {
         return payload;
-    }
-    static int getId()
-    {
-        return header.id;
     }
 
 

@@ -43,15 +43,12 @@ class Transmission
             {
                 current=nextHope;
             }
-		
-		
+
 
 
         }
-        
         while(current.Node_id!=des);
 
-/*
         cout<<"**Transmission Success***\n Packet reached succesfully"<<endl;
 
         cout<<"Path info: " ;
@@ -62,9 +59,7 @@ class Transmission
         }
 
         cout<<des<<endl;
-        */
         
-        g.individual_Nodes[des].packet_queue.push(packet);
 
     }
 
