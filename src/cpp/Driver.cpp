@@ -94,6 +94,7 @@ int main()
     
     
     //Queue of packets
+    
     queue<Packet> packet_queue;
     
     for(int i=0;i<v.size();i++)
@@ -111,12 +112,15 @@ int main()
     Routing r;
     r.genrateTable(src,des,g);
     r.setTable(g);
-
+    
+    //To start transmission
+	Transmission t;
 
 	while(!packet_queue.empty())
 	{
-		Transmission t;
+		
     		t.startTransmission(g,packet_queue.front());
+    		cout<<"Tranmission completed\n";
     		packet_queue.pop();
 	}
 

@@ -16,7 +16,7 @@ class Transmission
         Node current=g.individual_Nodes[src];
         do
         {
-            current.nodePacket=packet;
+            current.tempPacket=packet;
             cout<<"\nStatus: \nPacket reached at"<<current.Node_id<<endl;
             
 
