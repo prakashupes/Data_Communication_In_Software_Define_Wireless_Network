@@ -17,7 +17,7 @@ class Routing
     {
         Dijikstra d;
         stack<int> s=d.shortest_path(g.adjList,src,des,g.vertex);
-	
+	/*
         while(!s.empty())
         {
             int i=s.top();
@@ -28,11 +28,13 @@ class Routing
                 Routing_Table [i]=s.top();
             }
         }
+        */
 
 
     }
 
     //Set table to each node
+    /*
     void setTable(Graph &g)
     {
 
@@ -42,6 +44,7 @@ class Routing
         }
 
     }
+    */
 
 };
 
