@@ -6,65 +6,44 @@
 #define ROUTING
 
 //We are using link state routing
+struct table_attributes
+{
+	int nextHope,relay,ttl;
+	table_attributes (int a, int b, int c): nextHope(a),relay(b) ,ttl(c){}
+
+};
 class Routing
 {
 
     public:
-   // map<int,int> routing_table;
-  //  RoutingTable
-  map<int,int> Routing_Table;
-   void genrateTable(int src,int des,Graph &g)
-    {
-        Dijikstra d;
-        stack<int> s=d.shortest_path(g.adjList,src,des,g.vertex);
-	/*
-        while(!s.empty())
-        {
-            int i=s.top();
-            s.pop();
-            if(des!=i)
-            {
-            	table::out<<i<<"         |"<<s.top()<<endl;
-                Routing_Table [i]=s.top();
-            }
-        }
-        */
-
-
-    }
-
-    //Set table to each node
-    /*
-    void setTable(Graph &g)
-    {
-
-        for(int i=0;i<g.vertex;i++)
-        {
-            g.individual_Nodes[i].Routing_Table=Routing_Table;
-        }
+ 	 map<int ,vector<table_attributes>> Routing_Table;
+  	 void genrateTable(int src,int des,Graph &g)
+    	{
+      	  Dijikstra d;
+       	 stack<int> s=d.shortest_path(g.adjList,src,des,g.vertex);
+        
+       	 while(!s.empty())
+        	{
+        	
+        		int i=s.top();
+        		s.pop();
+        		if(des!=i)
+        		{
+        		//table_attributes t={s.top(),50,1};//let ttl=50,relay=1.0ie 100%
+        			Routing_Table [i].push_back(table_attributes(s.top(),50,1));
+        		
+        		}
+        		else
+        		{
+        			Routing_Table [i].push_back(table_attributes(i,50,1));	//des = curr
+        		
+        		}
+        
+       	 }
 
     }
-    */
 
 };
 
-
-
-
 #endif // ROUTING
 
-
-   //int nextHope;
-    //route
-    //controller func paket 1
-    //send to controller /
-    //controler have avail networks  and
-    //from src to dist execute diji
-    //use 30 sec update table
-    // src to desti
-    //action --> forwad, drop, pause
-    //TTL
-    //
-//thred for parellerprogramming
-
-//Make exception for src and desi
