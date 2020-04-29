@@ -136,7 +136,25 @@ int main()
 	log::out<<"loss rate "<<loss<<"%"<<endl;
 	
 	cout<<"\nLog file for this transmision is stored at /temp/_log.txt"<<endl;
-	cout<<"To help type ./a.out --h"<<endl;
+	//cout<<"To help type ./a.out --h"<<endl;
+	cout<<"If want to see log file here press 1 else 0";
+	int ch;
+	cin>>ch;
+	if(ch==1)
+	{
+		log::flush() ;
+		std::cout << "\n--------------------\n" << std::ifstream( log::path ).rdbuf() ;
+	}
+	ch=0;
+	cout<<"If want to see routing table here press 1 else 0 ";
+	
+	cin>>ch;
+	if(ch==1)
+	{
+		table::flush() ;
+		std::cout << "\n--------------------\n" << std::ifstream( table::path ).rdbuf() ;
+	}
+	
 
   
 
