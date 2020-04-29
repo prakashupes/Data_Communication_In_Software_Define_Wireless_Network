@@ -7,9 +7,10 @@
 
 #include"network/nodes.hpp"
 #include "network/Packates.hpp"
-#include "routing/Transmission.hpp"
+//#include "routing/Transmission.hpp"
 #include "routing/RoutingProtocol.hpp"
 #include "logs/log.hpp"
+#include "controlPlane/controler.hpp"
 
 //using namespace std;
 
@@ -109,20 +110,22 @@ int main()
 	
 	
 
-    Routing r;
+    Controller r;
     r.genrateTable(src,des,g);
-    r.setTable(g);
+    r.printTable();
     
     //To start transmission
+	/*
 	Transmission t;
 
 	while(!packet_queue.empty())
 	{
 		
-    		t.startTransmission(g,packet_queue.front());
+    		t.startTransmission(g,packet_queue.front()); //return true if 
     		cout<<"Tranmission completed\n";
     		packet_queue.pop();
 	}
+	*/
 
     
 
