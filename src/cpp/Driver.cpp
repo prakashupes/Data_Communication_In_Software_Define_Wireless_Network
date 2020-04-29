@@ -10,6 +10,7 @@
 #include "routing/Transmission.hpp"
 #include "routing/RoutingProtocol.hpp"
 #include "logs/log.hpp"
+#include "controlPlane/controler.hpp"
 
 //using namespace std;
 
@@ -109,20 +110,39 @@ int main()
 	
 	
 
-    Routing r;
+    Controller r;
     r.genrateTable(src,des,g);
-    r.setTable(g);
+    r.printTable();
+    r.genrateFlowRule(g.individual_Nodes);
+    
+    cout<<"\nPrinting flow_rule\n";
+    
+    for(int i=0;i<vertex;i++)
+    {
+    	for(auto x:g.individual_Nodes[i].flow_rule)
+    	{
+    		cout<<i<<" "<<x.nextHope<<" "<<x.relay<<endl;
+    	}
+    }
+    cout<<"\nTranmission\n";
+    
     
     //To start transmission
+	
 	Transmission t;
 
 	while(!packet_queue.empty())
 	{
 		
-    		t.startTransmission(g,packet_queue.front());
-    		cout<<"Tranmission completed\n";
+    		t.startTransmission(g,packet_queue.front()); //return true if 
+    		cout<<"Tranmission completed for packet_id\n"<<endl;
     		packet_queue.pop();
 	}
+	
+	
+	cout<<"Total packet received at Desination"<<g.individual_Nodes[des].packet_queue.size()<<endl;
+	
+	
 
     
 

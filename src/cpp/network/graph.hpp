@@ -59,7 +59,11 @@ class Graph
             log::out<<endl;
         }
     }
-
+	
+	int findCost(int u,int v)
+	{
+		return adjList[u][v];
+	}
     //here routing table is genrated
 
 
