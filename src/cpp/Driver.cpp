@@ -71,15 +71,14 @@ int main()
 
     int vertex=10;
     Graph g(vertex);
+    
+    cout<<"Creating topology with vertex "<<vertex<<"....."<<endl;
+    log::out<<"Creating topology with vertex "<<vertex<<"....."<<endl;
     Topology topology;
     topology.create_Network(g);
     topology.view_Network(g);
-
-    Dijikstra d;
-//    d.shortest_path(g,2,8);
     
     cout<<"Enter message\n";
-    
     string str;
     getline(cin,str);
     char dl=' ';
@@ -93,8 +92,13 @@ int main()
     cout<<"Enter des\n";
     cin>>des;
     
-    
+    log::out<<"Entered message "<<str<<endl;
+    log::out<<"Entered source "<<src<<endl;
+    log::out<<"Entered destination "<<des<<endl;
     //Queue of packets
+    
+    cout<<"Setting message into packets...."<<endl;
+    log::out<<"Setting message into packets...."<<endl;
     
     queue<Packet> packet_queue;
     
@@ -106,27 +110,35 @@ int main()
     	packet_queue.push(p);
     }
     
-	cout<<"Total packets "<<packet_queue.size();
+    	int total_packets=packet_queue.size();
+	cout<<"Total "<<total_packets<<" packets created..."<<endl;
+	log::out<<"Total "<<packet_queue.size()<<" packets created"<<endl;
 	
 	
-
-    Controller r;
+	cout<<"SDN Applied...\nSetting controller..."<<endl;
+	log::out<<"SDN Applied...\nSetting controller..."<<endl;
+	
+	cout<<"Preparing controller..."<<endl;
+    
+    	Controller r;
+    
+    cout<<"Controller genrating routing table using link state routing protocol..."<<endl;
+    log::out<<"Controller genrating routing table using link state routing protocol..."<<endl;
+    
     r.genrateTable(src,des,g);
-    r.printTable();
+    //r.printTable();
+    
+    cout<<"Controller setting flow rule for nodes..."<<endl;
+    log::out<<"Controller setting flow rule for nodes..."<<endl;
+    
     r.genrateFlowRule(g.individual_Nodes);
     
-    cout<<"\nPrinting flow_rule\n";
     
-    for(int i=0;i<vertex;i++)
-    {
-    	for(auto x:g.individual_Nodes[i].flow_rule)
-    	{
-    		cout<<i<<" "<<x.nextHope<<" "<<x.relay<<endl;
-    	}
-    }
-    cout<<"\nTranmission\n";
+    cout<<"Preparing Tranmission..."<<endl;
+    cout<<"Tranmission started..."<<endl;
     
-    
+    log::out<<"Preparing Tranmission..."<<endl;
+    log::out<<"Tranmission started..."<<endl;
     //To start transmission
 	
 	Transmission t;
@@ -135,12 +147,14 @@ int main()
 	{
 		
     		t.startTransmission(g,packet_queue.front()); //return true if 
-    		cout<<"Tranmission completed for packet_id\n"<<endl;
     		packet_queue.pop();
 	}
 	
 	
-	cout<<"Total packet received at Desination"<<g.individual_Nodes[des].packet_queue.size()<<endl;
+	//Calculation of loss and received
+	
+	int total_rec=g.individual_Nodes[des].packet_queue.size();
+	cout<<"Total packet received at Desination"<<total_rec<<endl;
 	
 	
 
