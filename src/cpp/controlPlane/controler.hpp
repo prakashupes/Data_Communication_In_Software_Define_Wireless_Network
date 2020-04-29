@@ -20,9 +20,14 @@ class Controller
 	
 	}
 	
-	void genrateFlowRule()
+	void genrateFlowRule(Node *individual_Nodes)
 	{
-		
+		for(auto x: Routing_Table)
+		{
+			auto v=(x.second);
+			individual_Nodes[x.first].flow_rule=v;
+			
+		}
 	
 	}
 	
@@ -31,7 +36,7 @@ class Controller
 		table::out<<"Node_id      Next_hope     relay      TTL    Cost"<<endl;
 		for(auto x:Routing_Table)
 		{	auto v=(x.second);
-			cout<<x.first<<"  "<<v[0].nextHope<<"  "<<v[0].relay<<"  "<<v[0].ttl<<"  "<<v[0].cost<<endl;
+			//cout<<x.first<<"  "<<v[0].nextHope<<"  "<<v[0].relay<<"  "<<v[0].ttl<<"  "<<v[0].cost<<endl;
 			
 			table::out<<x.first<<"  "<<v[0].nextHope<<"  "<<v[0].relay<<"  "<<v[0].ttl<<"  "<<v[0].cost<<endl;
 		}
