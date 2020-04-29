@@ -25,7 +25,7 @@ class Node
     int range=100;
     Packet tempPacket;//Node packet to temp //During transmision
     
-    queue<Packet> q; //Contains all packets if cuur node =desti
+    queue<Packet> packet_queue; //Contains all packets if cuur node =desti
     
 
     //means it can access node inside the range of 10unit

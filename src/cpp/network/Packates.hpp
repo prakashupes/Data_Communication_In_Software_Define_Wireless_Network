@@ -53,7 +53,7 @@ class Packet
             exit(1);
 
         }
-        header.id=1;
+        header.id=id;
         header.TYP=0; //TYP 0 means msg container
 
 
@@ -65,6 +65,10 @@ class Packet
     int getDesti()
     {
         return header.des;
+    }
+    int getId()
+    {
+        return header.id;
     }
     string getMessage()
     {
