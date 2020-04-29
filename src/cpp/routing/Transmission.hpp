@@ -12,8 +12,8 @@ class Transmission
 	public:
    	void startTransmission(Graph &g, Packet &packet)
    	{
-   		cout<<"Tranmission started for (packet_id)"<<packet.getId()<<"..."<<endl;
-   		log::out<<"Tranmission started for (packet_id)"<<packet.getId()<<"..."<<endl;
+   		cout<<"\nTranmission started for (packet_id) "<<packet.getId()<<"..."<<endl;
+   		log::out<<"\nTranmission started for (packet_id) "<<packet.getId()<<"..."<<endl;
      		int src=packet.getSource();
       		int des=packet.getDesti();
       		
@@ -50,6 +50,8 @@ class Transmission
         	cout<<"Packat is pushed to the destination node of main topology...."<<endl;
         	log::out<<"Packat is pushed to the destination node of main topology...."<<endl;
         	//current.packet_queue.push(packet);
+        	
+        	
         	
         
 

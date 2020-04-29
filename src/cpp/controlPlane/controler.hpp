@@ -31,14 +31,14 @@ class Controller
 	
 	}
 	
-	void printTable()
+	void genrateLog()
 	{
-		table::out<<"Node_id      Next_hope     relay      TTL    Cost"<<endl;
+		table::out<<"id  Next_hope  reliability TTL  Cost"<<endl;
 		for(auto x:Routing_Table)
 		{	auto v=(x.second);
 			//cout<<x.first<<"  "<<v[0].nextHope<<"  "<<v[0].relay<<"  "<<v[0].ttl<<"  "<<v[0].cost<<endl;
 			
-			table::out<<x.first<<"  "<<v[0].nextHope<<"  "<<v[0].relay<<"  "<<v[0].ttl<<"  "<<v[0].cost<<endl;
+			table::out<<x.first<<"         "<<v[0].nextHope<<"        "<<v[0].relay<<"      "<<v[0].ttl<<"      "<<v[0].cost<<endl;
 		}
 	}	
 

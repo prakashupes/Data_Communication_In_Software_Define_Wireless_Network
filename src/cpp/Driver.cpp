@@ -2,69 +2,36 @@
 #include <vector>
 #include<queue>
 #include "network/graph.hpp"
-
 #include "routing/topology.hpp"
-
 #include"network/nodes.hpp"
 #include "network/Packates.hpp"
 #include "routing/Transmission.hpp"
 #include "routing/RoutingProtocol.hpp"
 #include "logs/log.hpp"
 #include "controlPlane/controler.hpp"
-
-//using namespace std;
-
-// C++ implementation to split string into 
-// substrings on the basis of delimiter 
- 
+  
 using namespace std; 
-
-// function to split string into substrings on the 
-// basis of delimiter and return the substrings 
-// after split 
 vector<string> split(string str, char dl) 
 { 
 	string word = ""; 
-
-	// to count the number of split strings 
 	int num = 0; 
-
-	// adding delimiter character at the end 
-	// of 'str' 
 	str = str + dl; 
-
-	// length of 'str' 
 	int l = str.size(); 
-
-	// traversing 'str' from left to right 
 	vector<string> substr_list; 
 	for (int i = 0; i < l; i++) { 
 
-		// if str[i] is not equal to the delimiter 
-		// character then accumulate it to 'word' 
 		if (str[i] != dl) 
 			word = word + str[i]; 
 
 		else { 
 
-			// if 'word' is not an empty string, 
-			// then add this 'word' to the array 
-			// 'substr_list[]' 
 			if ((int)word.size() != 0) 
 				substr_list.push_back(word); 
-
-			// reset 'word' 
 			word = ""; 
 		} 
 	} 
-
-	// return the splitted strings 
 	return substr_list; 
 } 
-
-// Driver program to test above 
-
-
 
 int main()
 {
@@ -127,6 +94,7 @@ int main()
     
     r.genrateTable(src,des,g);
     //r.printTable();
+    r.genrateLog();
     
     cout<<"Controller setting flow rule for nodes..."<<endl;
     log::out<<"Controller setting flow rule for nodes..."<<endl;
@@ -153,18 +121,23 @@ int main()
 	
 	//Calculation of loss and received
 	
+	cout<<"\nCalculating loss and success...."<<endl;
+	log::out<<"\nCalculating loss and success...."<<endl;
 	int total_rec=g.individual_Nodes[des].packet_queue.size();
 	cout<<"Total packet received at Desination"<<total_rec<<endl;
+	log::out<<"Total packet received at Desination"<<total_rec<<endl;
 	
+	int success=(total_rec/total_packets)*100;
+	int loss= 100-success;
 	
+	cout<<"success rate "<<success<<"%"<<endl;
+	log::out<<"success rate "<<success<<"%"<<endl;
+	cout<<"loss rate "<<loss<<"%"<<endl;
+	log::out<<"loss rate "<<loss<<"%"<<endl;
+	
+	cout<<"\nLog file for this transmision is stored at /temp/_log.txt"<<endl;
+	cout<<"To help type ./a.out --h"<<endl;
 
-    
-
-
-
-
-
-
-
+  
 
 }
