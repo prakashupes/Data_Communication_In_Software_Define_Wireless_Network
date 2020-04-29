@@ -1,17 +1,13 @@
 #include "Dijikstra.hpp"
 #include "../network/graph.hpp"
 #include "../logs/log.hpp"
+#include "TableStruct.hpp"
 #include<map>
 #ifndef ROUTING
 #define ROUTING
 
 //We are using link state routing
-struct table_attributes
-{
-	int nextHope,relay,ttl,cost;
-	table_attributes (int a, int b, int c,int d): nextHope(a),relay(b) ,ttl(c),cost(d){}
 
-};
 class Routing
 {
 
