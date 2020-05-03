@@ -6,7 +6,9 @@ using namespace std;
 class Header
 {
     public:
-    int length=10,id,src,des,TYP; //id =packet Id
+    int length=10,src,des,TYP; //id =packet Id
+    string id;
+    
     //next hop
     //if next hop== dst stop
     // routing table calculate by dijik
@@ -29,30 +31,14 @@ class Packet
         
         this->payload=msg;
     }
-    void setHeaderInfo(int id,int src, int des) //will set information of header
+    void setHeaderInfo(string id,int src, int des) //will set information of header
     {
         
         header.src=src;
-        if(header.src<0 || header.src>9)
-        {
-            cout<<"Invalid Source: please check network\n";
-            log::out<<"Invalid Desination : please check network\n";
-            header.src=0;
-            exit(1);
-
-        }
+       
 
       
-         header.des=des;
-
-         if(header.des<0 || header.des>9)
-        {
-            cout<<"Invalid Desination : please check network\n";
-            log::out<<"Invalid Desination : please check network\n";
-            header.des=0;
-            exit(1);
-
-        }
+        header.des=des;
         header.id=id;
         header.TYP=0; //TYP 0 means msg container
 
@@ -66,7 +52,7 @@ class Packet
     {
         return header.des;
     }
-    int getId()
+    string getId()
     {
         return header.id;
     }
