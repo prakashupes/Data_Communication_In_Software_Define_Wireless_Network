@@ -9,33 +9,19 @@
 #include "routing/RoutingProtocol.hpp"
 #include "logs/log.hpp"
 #include "controlPlane/controler.hpp"
-  
+#include "message/message.hpp"
+#include<thread>
+#include <chrono>
+#include <algorithm>
 using namespace std; 
-vector<string> split(string str, char dl) 
-{ 
-	string word = ""; 
-	int num = 0; 
-	str = str + dl; 
-	int l = str.size(); 
-	vector<string> substr_list; 
-	for (int i = 0; i < l; i++) { 
-
-		if (str[i] != dl) 
-			word = word + str[i]; 
-
-		else { 
-
-			if ((int)word.size() != 0) 
-				substr_list.push_back(word); 
-			word = ""; 
-		} 
-	} 
-	return substr_list; 
-} 
+using namespace std::chrono;
 
 int main()
 {
-
+	
+    
+		
+		
     int vertex=10;
     Graph g(vertex);
     
@@ -45,12 +31,6 @@ int main()
     topology.create_Network(g);
     topology.view_Network(g);
     
-    cout<<"Enter message\n";
-    string str;
-    getline(cin,str);
-    char dl=' ';
-    vector<string> v=split(str,dl);
-    
     
     int src,des;
     cout<<"Enter src\n";
@@ -59,27 +39,23 @@ int main()
     cout<<"Enter des\n";
     cin>>des;
     
-    log::out<<"Entered message "<<str<<endl;
+    auto start = high_resolution_clock::now();
+    
     log::out<<"Entered source "<<src<<endl;
     log::out<<"Entered destination "<<des<<endl;
-    //Queue of packets
+    cout<<"Enter message\n";
+   string msg;
+   cin.ignore();
+   getline(cin,msg);
+   log::out<<"Entered message "<<msg<<endl;
     
-    cout<<"Setting message into packets...."<<endl;
-    log::out<<"Setting message into packets...."<<endl;
-    
-    queue<Packet> packet_queue;
-    
-    for(int i=0;i<v.size();i++)
-    {
-    	Packet p;
-    	p.setMessage(v[i]);
-    	p.setHeaderInfo(i,src,des);
-    	packet_queue.push(p);
-    }
+    Message m1;
+    m1.setCompleteMessage(src,des,0,msg);
+    queue<Packet> packet_queue=m1.split_into_packet();
     
     	int total_packets=packet_queue.size();
 	cout<<"Total "<<total_packets<<" packets created..."<<endl;
-	log::out<<"Total "<<packet_queue.size()<<" packets created"<<endl;
+	log::out<<"Total "<<total_packets<<" packets created"<<endl;
 	
 	
 	cout<<"SDN Applied...\nSetting controller..."<<endl;
@@ -118,6 +94,10 @@ int main()
     		packet_queue.pop();
 	}
 	
+	auto end = high_resolution_clock::now();
+		
+		auto x= duration_cast<microseconds> (end - start); //this is long type after x.count();
+		cout<<"\n program running for "<<x.count();
 	
 	//Calculation of loss and received
 	
