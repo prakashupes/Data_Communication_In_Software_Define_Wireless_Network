@@ -4,11 +4,14 @@
 #include "../logs/log.hpp"
 class Message
 {
-	string message,message_id;
-	queue<Packet> packet_queue;
 	public:
+	string message,message_id;
+	int src,des;
+	
+	
 	vector<string> split(string str, char dl) 
 	{ 
+		cout<<"to be split "<<str<<endl;
 		string word = ""; 
 		int num = 0; 
 		str = str + dl; 
@@ -29,15 +32,33 @@ class Message
 	return substr_list; 
 	}	 
 	
-	queue<Packet> setMessage(int src,int des,int del) //del define num of objetc of src and destination
+	void setCompleteMessage(int src,int des,int del,string msg) //del define num of objetc of src and destination
 	// so that unique message_id can be created
 	{
-		cout<<"Enter message\n";
-   		
-   		 getline(cin,message);
-   		 char dl=' ';
-    		vector<string> v=split(message,dl);
+		this->message=msg;
+		
     		message_id="M00"+std::to_string(del);
+    		log::out<<"Genrated message id"<<message_id<<endl;
+    		this->src=src;
+    		this->des=des;
+	
+	}
+	queue<Packet> split_into_packet()
+	{
+		queue<Packet> packet_queue;
+		cout<<"Setting message into packets...."<<endl;
+    		log::out<<"Setting message into packets...."<<endl;	
+		char dl=' ';
+    		vector<string> v=split(this->message,dl);
+    		for(int i=0;i<v.size();i++)
+    		{
+    			Packet p;
+    			p.setMessage(v[i]);
+    			p.setHeaderInfo(message_id+std::to_string(i),src,des);
+    			packet_queue.push(p);
+    		}
+    		return packet_queue;
+    		
 	
 	}
 
