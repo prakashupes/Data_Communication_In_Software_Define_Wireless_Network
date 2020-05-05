@@ -50,11 +50,7 @@ class Transmission
         	cout<<"Packat is pushed to the destination node of main topology...."<<endl;
         	log::out<<"Packat is pushed to the destination node of main topology...."<<endl;
         	//current.packet_queue.push(packet);
-        	
-        	
-        	
-        
-
+     
     }
 
 };
