@@ -19,9 +19,6 @@ using namespace std::chrono;
 int main()
 {
 	
-    
-		
-		
     int vertex=10;
     Graph g(vertex);
     
@@ -32,6 +29,7 @@ int main()
     topology.view_Network(g);
     
     
+    
     int src,des;
     cout<<"Enter src\n";
     cin>>src;
@@ -39,16 +37,21 @@ int main()
     cout<<"Enter des\n";
     cin>>des;
     
-    auto start = high_resolution_clock::now();
+    
     
     log::out<<"Entered source "<<src<<endl;
     log::out<<"Entered destination "<<des<<endl;
     cout<<"Enter message\n";
-   string msg;
-   cin.ignore();
-   getline(cin,msg);
-   log::out<<"Entered message "<<msg<<endl;
+    string msg;
+    cin.ignore();
+    getline(cin,msg);
+    log::out<<"Entered message "<<msg<<endl;
     
+    //Time calculate start
+     
+    auto start = high_resolution_clock::now();
+    
+    ///
     Message m1;
     m1.setCompleteMessage(src,des,0,msg);
     queue<Packet> packet_queue=m1.split_into_packet();
@@ -85,19 +88,26 @@ int main()
     log::out<<"Tranmission started..."<<endl;
     //To start transmission
 	
-	Transmission t;
+	Transmission t; //
 
 	while(!packet_queue.empty())
 	{
+	//For each node one transmision
 		
     		t.startTransmission(g,packet_queue.front()); //return true if 
     		packet_queue.pop();
+    		
 	}
+	
+	
+	//Thread for transmision
 	
 	auto end = high_resolution_clock::now();
 		
 		auto x= duration_cast<microseconds> (end - start); //this is long type after x.count();
 		cout<<"\n program running for "<<x.count();
+	
+	
 	
 	//Calculation of loss and received
 	
@@ -136,6 +146,5 @@ int main()
 	}
 	
 
-  
 
 }
