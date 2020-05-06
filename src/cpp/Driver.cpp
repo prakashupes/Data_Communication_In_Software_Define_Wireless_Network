@@ -71,16 +71,18 @@ int main()
     cout<<"Controller genrating routing table using link state routing protocol..."<<endl;
     log::out<<"Controller genrating routing table using link state routing protocol..."<<endl;
     
-    r.genrateTable(src,des,g);
-    //r.printTable();
+    r.genrateTable(src,des,g,m1.message_id);
     r.genrateLog();
+    //r.printTable();
+    
+    
     
     cout<<"Controller setting flow rule for nodes..."<<endl;
     log::out<<"Controller setting flow rule for nodes..."<<endl;
     
     r.genrateFlowRule(g.individual_Nodes);
     
-    
+    /*
     cout<<"Preparing Tranmission..."<<endl;
     cout<<"Tranmission started..."<<endl;
     
@@ -145,6 +147,6 @@ int main()
 		std::cout << "\n--------------------\n" << std::ifstream( table::path ).rdbuf() ;
 	}
 	
-
+*/
 
 }
