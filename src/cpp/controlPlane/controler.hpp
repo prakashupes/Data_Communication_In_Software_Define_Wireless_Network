@@ -7,16 +7,18 @@
 
 class Controller
 {
-	map<int ,vector<table_attributes>> Routing_Table;
+	map<string,map<int ,vector<table_attributes>>> Routing_Table;
 	
 	
 	public:
 	
-	 void genrateTable(int src,int des,Graph &g)
+	 void genrateTable(int src,int des,Graph &g,string msg_id)
 	{
 		Routing r;
 		r.genrateTable(src,des,g);
-		Routing_Table=r.Routing_Table;
+		Routing_Table[msg_id]=r.Routing_Table;
+		
+		
 	
 	}
 	
@@ -24,24 +26,45 @@ class Controller
 	{
 		for(auto x: Routing_Table)
 		{
-			auto v=(x.second);
-			individual_Nodes[x.first].flow_rule=v;
+		
+			string msg_id=x.first;
+			for(auto y:x.second)
+			{
+				auto v=(y.second);
+				individual_Nodes[y.first].flow_rule[msg_id]=v;
+			
+			
+			}
 			
 		}
 	
 	}
 	
+	
 	void genrateLog()
 	{
 		table::out<<"id  Next_hope  reliability TTL  Cost"<<endl;
 		for(auto x:Routing_Table)
-		{	auto v=(x.second);
+		{
+		
+			cout<<"Routing table for msg_id "<<x.first<<endl;
+			
+			auto y=(x.second);
+			for(auto z: y)
+			{
+				auto v=(z.second);
+		table::out<<z.first<<"         "<<v[0].nextHope<<"        "<<v[0].relay<<"      "<<v[0].ttl<<"      "<<v[0].cost<<endl;
+			
+			cout<<z.first<<"         "<<v[0].nextHope<<"        "<<v[0].relay<<"      "<<v[0].ttl<<"      "<<v[0].cost<<endl;
+			
+			
+			}
 			//cout<<x.first<<"  "<<v[0].nextHope<<"  "<<v[0].relay<<"  "<<v[0].ttl<<"  "<<v[0].cost<<endl;
 			
-			table::out<<x.first<<"         "<<v[0].nextHope<<"        "<<v[0].relay<<"      "<<v[0].ttl<<"      "<<v[0].cost<<endl;
+			
 		}
 	}	
-
+	
 };
 
 
