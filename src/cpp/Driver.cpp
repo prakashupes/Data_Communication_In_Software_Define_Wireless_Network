@@ -19,9 +19,28 @@ using namespace std::chrono;
 int main()
 {
 
-	string messageArr[2]={"This is proect team","Welcome to our project"};
+	/***********************************************************************************************/
+	//variables that can be used in out of simulation loop
+	Message m1,m2;
+	int src1,src2,des1,des2;
+	int count=0; //It will keep count of total send messages
+	int message_index=0;
 	
 	
+	
+	string msgArray[9] = {      "This is project team of developer",
+	                       "Hello Everyone",
+	                       "Welcome to our project",
+	                       "SDN network",
+	                       "Minor 2",
+	                       "Our mentor is Dr Amit singh",
+	                       "We have 4 member in our team",
+	                       "Pradeep sir is my AC",
+	                       "We are from oss"
+	                       
+				   };
+	
+	cout<<"Enter time for simulation in sec"<<endl;
 	int simulationTime=0;
 	cin>>simulationTime;
 		int vertex=10;
@@ -60,7 +79,7 @@ int main()
     Message m1;
     int count=0;
     
-    m1.setCompleteMessage(src,des,count,messageArr[count]);
+    m1.setCompleteMessage(src,des,count,msgArray[count]);
     queue<Packet> packet_queue=m1.split_into_packet();
     
     	int total_packets=packet_queue.size();
@@ -129,7 +148,7 @@ int main()
 	
 	cout<<"\nCalculating loss and success...."<<endl;
 	log::out<<"\nCalculating loss and success...."<<endl;
-	int total_rec=g.individual_Nodes[des].packet_queue.size();
+	int total_rec=g.individual_Nodes[des].packet_queue.size(); //Total received packet
 	cout<<"Total packet received at Desination"<<total_rec<<endl;
 	log::out<<"Total packet received at Desination"<<total_rec<<endl;
 	
