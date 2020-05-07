@@ -45,6 +45,7 @@ class Transmission
         		Packet process_packet=current.buffer.front();
         		current.buffer.pop();
         		packet_id=process_packet.getId();
+        		
         		msg_id=packet_id.substr(0,4);
         		
         		cout<<"packet pop from buffer for transmision... id: "<<packet_id<<endl;
@@ -57,6 +58,7 @@ class Transmission
         		
    			
         		int nextHopeId=current.flow_rule[msg_id][0].nextHope;
+        		
         		cout<<"Packat forwarded to "<<nextHopeId<<endl;
         		log::out<<"Packat forwarded to "<<nextHopeId<<endl;
             		Node nextHope=g.individual_Nodes[nextHopeId];
