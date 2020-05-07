@@ -18,8 +18,13 @@ using namespace std::chrono;
 
 int main()
 {
+
+	string messageArr[2]={"This is proect team","Welcome to our project"};
 	
-    int vertex=10;
+	
+	int simulationTime=0;
+	cin>>simulationTime;
+		int vertex=10;
     Graph g(vertex);
     
     cout<<"Creating topology with vertex "<<vertex<<"....."<<endl;
@@ -29,7 +34,7 @@ int main()
     topology.view_Network(g);
     
     
-    
+    cout<<"Enter time for simulation"<<endl;
     int src,des;
     cout<<"Enter src\n";
     cin>>src;
@@ -53,7 +58,9 @@ int main()
     
     ///
     Message m1;
-    m1.setCompleteMessage(src,des,0,msg);
+    int count=0;
+    
+    m1.setCompleteMessage(src,des,count,messageArr[count]);
     queue<Packet> packet_queue=m1.split_into_packet();
     
     	int total_packets=packet_queue.size();
@@ -82,7 +89,7 @@ int main()
     
     r.genrateFlowRule(g.individual_Nodes);
     
-    /*
+    
     cout<<"Preparing Tranmission..."<<endl;
     cout<<"Tranmission started..."<<endl;
     
@@ -94,10 +101,17 @@ int main()
 
 	while(!packet_queue.empty())
 	{
-	//For each node one transmision
-		
-    		t.startTransmission(g,packet_queue.front()); //return true if 
+	
+	
+		Packet ppp=packet_queue.front();
+		cout<<"Starting thrread\n";
+    		std:: thread th(&Transmission::startTransmission,std::ref(g),std::ref(ppp));
+    		th.join();
+    		
+    		
+    		//t.startTransmission(g,packet_queue.front());
     		packet_queue.pop();
+    		
     		
 	}
 	
@@ -147,6 +161,11 @@ int main()
 		std::cout << "\n--------------------\n" << std::ifstream( table::path ).rdbuf() ;
 	}
 	
-*/
+
+	
+	
+	//simulationTime--;
+	
+    
 
 }
