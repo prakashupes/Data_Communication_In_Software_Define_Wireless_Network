@@ -1,1 +1,10 @@
-./a.out < input.txt  > status.log
+From terminal:
+1). go inside project_direc/src/cpp/
+2)  open terminal from here
+3)  run:  g++ -std=c++11 Driver.cpp -pthread -o output
+4)  ./output
+
+From IDE:
+1) go inside project_direc/src/cpp/
+2) run file Driver.cpp
+Note: Log file is only for ubuntu. so if you use IDE then you will not be able to see log and routing table.
