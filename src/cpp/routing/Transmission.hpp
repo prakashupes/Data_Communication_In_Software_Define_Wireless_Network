@@ -46,7 +46,7 @@ class Transmission
         		current.buffer.pop();
         		packet_id=process_packet.getId();
         		
-        		msg_id=packet_id.substr(0,4);
+        		msg_id=process_packet.getparent_msg_id();
         		
         		cout<<"packet pop from buffer for transmision... id: "<<packet_id<<endl;
         		log::out<<"packet pop from buffer for transmision... id: "<<packet_id<<endl;

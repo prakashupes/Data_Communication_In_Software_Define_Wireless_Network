@@ -27,7 +27,7 @@ int main()
 	int message_index=0;
 	int total_packets=0;
 	Controller r;
-	int vertex=10;
+	int vertex=20;
 	int defualt_src=0;
 	int defualt_des=9;
 	queue<Packet> packet_queue;
@@ -77,8 +77,9 @@ int main()
     		des1=defualt_des;
     	}
     	
-    	
+    cout<<"Entered source "<<src1<<endl;
     log::out<<"Entered source "<<src1<<endl;
+    cout<<"Entered destination "<<des1<<endl;
     log::out<<"Entered destination "<<des1<<endl;
     
     //Time calculate start
@@ -166,6 +167,15 @@ int main()
     		log::out<<"\nSending next packet...."<<endl;
     		//t.startTransmission(g,packet_queue.front());
     		packet_queue.pop();
+    		auto end = high_resolution_clock::now();
+		auto x= duration_cast<microseconds> (end - start); //this is long type after x.count();
+		long running_time=x.count();
+		cout<<"\nThis transmision completed in "<<running_time<<" millisec"<<endl;
+	
+		microseconds_-=running_time;
+	
+		simulationTime=microseconds_/1000;
+		if(simulationTime<=0) break;
     		
     		
 	}
@@ -173,14 +183,7 @@ int main()
 	
 	//Thread for transmision
 	
-	auto end = high_resolution_clock::now();
-	auto x= duration_cast<microseconds> (end - start); //this is long type after x.count();
-	long running_time=x.count();
-	cout<<"\nThis transmision completed in "<<running_time<<" millisec"<<endl;
 	
-	microseconds_-=running_time;
-	
-	simulationTime=microseconds_/1000;
 	cout<<"time left "<<simulationTime<<" millisec"<<endl;
 	
 	}
@@ -193,11 +196,13 @@ int main()
 	cout<<"\nCalculating loss and success...."<<endl;
 	log::out<<"\nCalculating loss and success...."<<endl;
 	int total_rec=g.individual_Nodes[des1].packet_queue.size(); //Total received packet
-	cout<<"Total packet received at Desination"<<total_rec<<endl;
+	cout<<"Total packet received at Desination "<<total_rec<<endl;
 	log::out<<"Total packet received at Desination"<<total_rec<<endl;
-	
-	int success=(total_rec/total_packets)*100;
-	int loss= 100-success;
+	float ratio=(float)total_rec/(float)total_packets;
+	cout<<total_rec<<"/"<<total_packets<<endl;
+	cout<<ratio<<endl;
+	float success=ratio*100;
+	float loss= 100-success;
 	
 	cout<<"success rate "<<success<<"%"<<endl;
 	log::out<<"success rate "<<success<<"%"<<endl;
@@ -224,11 +229,6 @@ int main()
 		std::cout << "\n--------------------\n" << std::ifstream( table::path ).rdbuf() ;
 	}
 	
-
-	
-	
 	//simulationTime--;
-	
-    
 
 }
