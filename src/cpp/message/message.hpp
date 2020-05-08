@@ -54,7 +54,7 @@ class Message
     		{
     			Packet p;
     			p.setMessage(v[i]);
-    			p.setHeaderInfo(message_id+std::to_string(i),src,des);
+    			p.setHeaderInfo(message_id+std::to_string(i),src,des,message_id);
     			packet_queue.push(p);
     		}
     		return packet_queue;
