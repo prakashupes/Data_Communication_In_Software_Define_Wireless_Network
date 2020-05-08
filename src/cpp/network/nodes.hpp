@@ -4,8 +4,10 @@
 #include "../routing/TableStruct.hpp"
 #include<queue>
 #include <vector>
+#include <map>
 #ifndef NODE
 #define NODE
+/*
 struct Flowrule
 {
 	int nextHope,relay,ttl,cost;
@@ -14,16 +16,16 @@ struct Flowrule
 
 };
 
-
+*/
 class Node
 {
 
     public:
     int Node_id;
    
-   vector<table_attributes> flow_rule;
+   map<string ,vector<table_attributes>> flow_rule;
     int range=100;
-    Packet tempPacket;//Node packet to temp //During transmision
+    queue<Packet> buffer;//Node packet to temp //During transmision
     
     queue<Packet> packet_queue; //Contains all packets if cuur node =desti
     

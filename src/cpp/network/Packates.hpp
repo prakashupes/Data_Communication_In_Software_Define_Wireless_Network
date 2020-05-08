@@ -7,7 +7,7 @@ class Header
 {
     public:
     int length=10,src,des,TYP; //id =packet Id
-    string id;
+    string id,parent_msg_id;
     
     //next hop
     //if next hop== dst stop
@@ -31,7 +31,7 @@ class Packet
         
         this->payload=msg;
     }
-    void setHeaderInfo(string id,int src, int des) //will set information of header
+    void setHeaderInfo(string id,int src, int des,string parent_msg_id) //will set information of header
     {
         
         header.src=src;
@@ -41,6 +41,7 @@ class Packet
         header.des=des;
         header.id=id;
         header.TYP=0; //TYP 0 means msg container
+        header.parent_msg_id=parent_msg_id;
 
 
     }
@@ -55,6 +56,10 @@ class Packet
     string getId()
     {
         return header.id;
+    }
+    string getparent_msg_id()
+    {
+        return header.parent_msg_id;
     }
     string getMessage()
     {

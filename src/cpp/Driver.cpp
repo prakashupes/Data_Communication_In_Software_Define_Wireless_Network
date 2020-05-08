@@ -18,9 +18,33 @@ using namespace std::chrono;
 
 int main()
 {
+
+	/***********************************************************************************************/
+	//variables that can be used in out of simulation loop
+	Message m1,m2;
+	int src1,src2,des1,des2;
+	int count=0; //It will keep count of total send messages
+	int message_index=0;
+	int total_packets=0;
+	Controller r;
+	int vertex=20;
+	int defualt_src=0;
+	int defualt_des=9;
+	queue<Packet> packet_queue;
 	
-    int vertex=10;
-    Graph g(vertex);
+	string msgArray[9] = {      "This is project team of developer",
+	                       "Hello Everyone",
+	                       "Welcome to our project",
+	                       "SDN network",
+	                       "Minor 2",
+	                       "Our mentor is Dr Amit singh",
+	                       "We have 4 member in our team",
+	                       "Pradeep sir is my AC",
+	                       "We are from oss"
+	                       
+				   };
+				   
+	Graph g(vertex);
     
     cout<<"Creating topology with vertex "<<vertex<<"....."<<endl;
     log::out<<"Creating topology with vertex "<<vertex<<"....."<<endl;
@@ -28,24 +52,35 @@ int main()
     topology.create_Network(g);
     topology.view_Network(g);
     
+    /*******************8************************************************/
+	
+	cout<<"Enter time for simulation in millisec"<<endl;
+	float simulationTime=0;
+	cin>>simulationTime;
+	
+    	
+    	float microseconds_=simulationTime*1000;
+	auto start = high_resolution_clock::now();
+	
+	while(simulationTime>0)
+	{
+	
+	if(message_index==8) message_index=0;
     
-    
-    int src,des;
-    cout<<"Enter src\n";
-    cin>>src;
-    
-    cout<<"Enter des\n";
-    cin>>des;
-    
-    
-    
-    log::out<<"Entered source "<<src<<endl;
-    log::out<<"Entered destination "<<des<<endl;
-    cout<<"Enter message\n";
-    string msg;
-    cin.ignore();
-    getline(cin,msg);
-    log::out<<"Entered message "<<msg<<endl;
+    	/***************************************************************************************/
+    	//Message1 details
+    	src1=(rand()%vertex);
+    	des1=(rand()%vertex);
+    	if(src1==des1)
+    	{
+    		src1=defualt_src;
+    		des1=defualt_des;
+    	}
+    	
+    cout<<"Entered source "<<src1<<endl;
+    log::out<<"Entered source "<<src1<<endl;
+    cout<<"Entered destination "<<des1<<endl;
+    log::out<<"Entered destination "<<des1<<endl;
     
     //Time calculate start
      
@@ -53,10 +88,34 @@ int main()
     
     ///
     Message m1;
-    m1.setCompleteMessage(src,des,0,msg);
-    queue<Packet> packet_queue=m1.split_into_packet();
+  
     
-    	int total_packets=packet_queue.size();
+    m1.setCompleteMessage(src1,des1,count,msgArray[message_index]);
+    count++;
+    message_index++;
+    
+    packet_queue=m1.split_into_packet();
+    
+    /********************************************************************************/
+    /*
+    src2=(rand()%vertex);
+    	des2=(rand()%vertex);
+    	if(src2==des2)
+    	{
+    		src2=defualt_src;
+    		des2=defualt_des;
+    	}
+    	
+    m2.setCompleteMessage(src2,des2,count,msgArray[message_index]);
+    count++;
+    message_index++;
+    
+     packet_queue=m2.split_into_packet();
+    
+    */
+    /********************************************************************************/
+    
+    	total_packets=packet_queue.size();
 	cout<<"Total "<<total_packets<<" packets created..."<<endl;
 	log::out<<"Total "<<total_packets<<" packets created"<<endl;
 	
@@ -66,14 +125,19 @@ int main()
 	
 	cout<<"Preparing controller..."<<endl;
     
-    	Controller r;
+    	
     
     cout<<"Controller genrating routing table using link state routing protocol..."<<endl;
     log::out<<"Controller genrating routing table using link state routing protocol..."<<endl;
     
-    r.genrateTable(src,des,g);
-    //r.printTable();
+    r.genrateTable(src1,des1,g,m1.message_id);
     r.genrateLog();
+    
+    // r.genrateTable(src2,des2,g,m2.message_id);
+    //r.genrateLog();
+    //r.printTable();
+    
+    
     
     cout<<"Controller setting flow rule for nodes..."<<endl;
     log::out<<"Controller setting flow rule for nodes..."<<endl;
@@ -92,20 +156,38 @@ int main()
 
 	while(!packet_queue.empty())
 	{
-	//For each node one transmision
-		
-    		t.startTransmission(g,packet_queue.front()); //return true if 
+	
+	
+		Packet ppp=packet_queue.front();
+		//cout<<"Starting thrread\n";
+    		std:: thread th(&Transmission::startTransmission,std::ref(g),std::ref(ppp));
+    		th.join();
+    		
+    		cout<<"\nSending next packet...."<<endl;
+    		log::out<<"\nSending next packet...."<<endl;
+    		//t.startTransmission(g,packet_queue.front());
     		packet_queue.pop();
+    		auto end = high_resolution_clock::now();
+		auto x= duration_cast<microseconds> (end - start); //this is long type after x.count();
+		long running_time=x.count();
+		cout<<"\nThis transmision completed in "<<running_time<<" millisec"<<endl;
+	
+		microseconds_-=running_time;
+	
+		simulationTime=microseconds_/1000;
+		if(simulationTime<=0) break;
+    		
     		
 	}
 	
 	
 	//Thread for transmision
 	
-	auto end = high_resolution_clock::now();
+	
+	cout<<"time left "<<simulationTime<<" millisec"<<endl;
+	
+	}
 		
-		auto x= duration_cast<microseconds> (end - start); //this is long type after x.count();
-		cout<<"\n program running for "<<x.count();
 	
 	
 	
@@ -113,12 +195,14 @@ int main()
 	
 	cout<<"\nCalculating loss and success...."<<endl;
 	log::out<<"\nCalculating loss and success...."<<endl;
-	int total_rec=g.individual_Nodes[des].packet_queue.size();
-	cout<<"Total packet received at Desination"<<total_rec<<endl;
+	int total_rec=g.individual_Nodes[des1].packet_queue.size(); //Total received packet
+	cout<<"Total packet received at Desination "<<total_rec<<endl;
 	log::out<<"Total packet received at Desination"<<total_rec<<endl;
-	
-	int success=(total_rec/total_packets)*100;
-	int loss= 100-success;
+	float ratio=(float)total_rec/(float)total_packets;
+	cout<<total_rec<<"/"<<total_packets<<endl;
+	cout<<ratio<<endl;
+	float success=ratio*100;
+	float loss= 100-success;
 	
 	cout<<"success rate "<<success<<"%"<<endl;
 	log::out<<"success rate "<<success<<"%"<<endl;
@@ -145,6 +229,6 @@ int main()
 		std::cout << "\n--------------------\n" << std::ifstream( table::path ).rdbuf() ;
 	}
 	
-
+	//simulationTime--;
 
 }

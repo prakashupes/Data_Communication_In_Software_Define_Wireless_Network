@@ -2,6 +2,7 @@
 #include "../network/Packates.hpp"
 #include "../network/nodes.hpp"
 #include "../logs/log.hpp"
+#include <string.h>
 
 #ifndef TRANSMIT
 #define TRANSMIT
@@ -10,10 +11,14 @@
 class Transmission
 {
 	public:
-   	void startTransmission(Graph &g, Packet &packet)
+   	static void startTransmission(Graph g, Packet packet)
    	{
-   		cout<<"\nTranmission started for (packet_id) "<<packet.getId()<<"..."<<endl;
-   		log::out<<"\nTranmission started for (packet_id) "<<packet.getId()<<"..."<<endl;
+   		string packet_id=packet.getId();
+   		string msg_id=	packet_id.substr(0,4);
+   		cout<<"\nTranmission started for (packet_id) "<<packet_id<<"..."<<endl;
+   		log::out<<"\nTranmission started for (packet_id) "<<packet_id<<"..."<<endl;
+   		
+   		cout<<"Message id "<<msg_id<<endl;
      		int src=packet.getSource();
       		int des=packet.getDesti();
       		
@@ -26,14 +31,34 @@ class Transmission
         		cout<<"\n*Status*\n";
         		cout<<"Packat reached at "<<current.Node_id<<endl;
         		
+        		//log
         		log::out<<"\n*Status*\n";
         		log::out<<"Packat reached at "<<current.Node_id<<endl;
-        		//Genrate log for this packet
-        		cout<<"Setting up packet as temp..."<<endl;
-        		log::out<<"Setting up packet as temp..."<<endl;
-        		current.tempPacket=packet;
         		
-        		int nextHopeId=current.flow_rule[0].nextHope;
+        		
+        		cout<<"Setting up packet into buffer..."<<endl;
+        		log::out<<"Setting up packet into buffer..."<<endl;
+        		current.buffer.push(packet);
+        		
+        		//Now pop front packet of buffer
+        		
+        		Packet process_packet=current.buffer.front();
+        		current.buffer.pop();
+        		packet_id=process_packet.getId();
+        		
+        		msg_id=process_packet.getparent_msg_id();
+        		
+        		cout<<"packet pop from buffer for transmision... id: "<<packet_id<<endl;
+        		log::out<<"packet pop from buffer for transmision... id: "<<packet_id<<endl;
+        		
+        		cout<<"finding next hope for packet from flow rule...."<<endl;
+        		
+        		log::out<<"finding next hope for packet from flow rule...."<<endl;
+        		
+        		
+   			
+        		int nextHopeId=current.flow_rule[msg_id][0].nextHope;
+        		
         		cout<<"Packat forwarded to "<<nextHopeId<<endl;
         		log::out<<"Packat forwarded to "<<nextHopeId<<endl;
             		Node nextHope=g.individual_Nodes[nextHopeId];
@@ -50,6 +75,7 @@ class Transmission
         	cout<<"Packat is pushed to the destination node of main topology...."<<endl;
         	log::out<<"Packat is pushed to the destination node of main topology...."<<endl;
         	//current.packet_queue.push(packet);
+        	
      
     }
 
