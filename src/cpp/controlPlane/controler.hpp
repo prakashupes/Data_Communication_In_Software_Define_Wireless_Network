@@ -51,7 +51,7 @@ class Controller
 		for(auto x:Routing_Table)
 		{
 		
-			log::out<<"Routing table for msg_id "<<x.first<<endl;
+			table::out<<"Routing table for msg_id "<<x.first<<endl;
 			
 			auto y=(x.second);
 			for(auto z: y)

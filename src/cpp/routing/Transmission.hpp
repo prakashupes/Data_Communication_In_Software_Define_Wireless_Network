@@ -15,8 +15,8 @@ class Transmission
    	{
    		string packet_id=packet.getId();
    		string msg_id=	packet_id.substr(0,4);
-   		cout<<"\nTranmission started for (packet_id) "<<packet_id<<"..."<<endl;
-   		log::out<<"\nTranmission started for (packet_id) "<<packet_id<<"..."<<endl;
+   		cout<<"Tranmission started for (packet_id) "<<packet_id<<"..."<<endl;
+   		log::out<<"Tranmission started for (packet_id) "<<packet_id<<"..."<<endl;
    		
    		//cout<<"Message id "<<msg_id<<endl;
      		int src=packet.getSource();
@@ -64,7 +64,7 @@ class Transmission
         		float relability=(float)(rand()%10)/10;
         		//cout<<"relability "<<relability<<endl;
         		
-        		if(relability > (0.9))
+        		if(relability > (0.8))
         		{
         			cout<<"Packat could not be sent to next hope"<<endl;
         			cout<<"Medium relability is greater then 0.8 ie "<<relability<<endl;
@@ -91,7 +91,7 @@ class Transmission
         	//cout<<"Packat is pushed to the destination node of main topology...."<<endl;
         	log::out<<"Packat is pushed to the destination node of main topology...."<<endl;
         	//current.packet_queue.push(packet);
-        	cout<<"Tranmission completed for packet id ="<<packet_id<<endl<<"...";
+        	cout<<"Tranmission completed for packet id ="<<packet_id<<"..."<<endl;
         	log::out<<"Tranmission completed for packet id ="<<packet_id<<endl<<"...";
      
     }

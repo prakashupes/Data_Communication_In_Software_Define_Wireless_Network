@@ -50,7 +50,12 @@ int main()
 				  
 	/*************************************************Topology Creating Section********************************/			  
 	cout<<"Enter num of vertex for transmision "<<endl;
-	cin>>vertex;			   
+	cin>>vertex;
+	if(vertex<10)
+	{
+		cout<<"Minimum 10 vertex required ";
+		exit(1);
+	}			   
 	Graph g(vertex);
     	cout<<"Creating topology with vertex "<<vertex<<"....."<<endl;
     	log::out<<"Creating topology with vertex "<<vertex<<"....."<<endl;
@@ -62,6 +67,11 @@ int main()
     	/****************************User input section for simulation time************************************************/
 	
 	cout<<"Enter time for simulation in millisec"<<endl;
+	if(time>300)
+	{
+		cout<<"Simulation limit upto 300";
+		exit(1);
+	}
 	float simulationTime=0;
 	cin>>simulationTime;
 	time=simulationTime;
@@ -119,7 +129,7 @@ int main()
 		cout<<"SDN Applied...\nSetting controller..."<<endl;
 		log::out<<"SDN Applied...\nSetting controller..."<<endl;
 	
-		cout<<"Preparing controller..."<<endl;
+		
     		cout<<"Controller genrating routing table using link state routing protocol..."<<endl;
     		log::out<<"Controller genrating routing table using link state routing protocol..."<<endl;
     
@@ -135,9 +145,9 @@ int main()
     
     		 /*********************************Tranmission Section************************************************/
  
-    		cout<<"Tranmission started..."<<endl;
+    		cout<<"\nTranmission started..."<<endl;
     
-    		log::out<<"Preparing Tranmission..."<<endl;
+    		log::out<<"\nPreparing Tranmission..."<<endl;
     		log::out<<"Tranmission started..."<<endl;
 
 	
@@ -159,7 +169,8 @@ int main()
     			auto end = high_resolution_clock::now();
 			auto x= duration_cast<microseconds> (end - start); //this is long type after x.count();
 			long running_time=x.count();
-			cout<<"\nThis transmision completed in "<<running_time<<" millisec"<<endl;
+			cout<<"This transmision completed in "<<running_time<<" millisec"<<endl;
+			log::out<<"This transmision completed in "<<running_time<<" millisec"<<endl;
 			microseconds_-=running_time;
 			simulationTime=microseconds_/1000; //microseconds_ is millisec
 			
@@ -173,6 +184,7 @@ int main()
 	
 		cout<<"time left "<<simulationTime<<" millisec"<<endl;
 		total_rec+=g.individual_Nodes[des1].packet_queue.size(); //Total received packet
+		cout<<"\nNext message processed"<<endl;
 	
 	}
 	cout<<"Total transmision "<<(total_rec)<<endl;
