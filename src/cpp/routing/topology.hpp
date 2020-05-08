@@ -4,11 +4,12 @@
 #define TOPO
 class Topology
 {
-    int vertex=10;
+    //int vertex=10;
     public:
     //dynamic network
     void create_Network(Graph & g) //It will create a graph
     {
+    	int vertex=g.vertex;
         int i=1;
     while(i<(vertex*4)-vertex)
     {
