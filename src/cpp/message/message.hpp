@@ -11,7 +11,7 @@ class Message
 	
 	vector<string> split(string str, char dl) 
 	{ 
-		cout<<"to be split "<<str<<endl;
+		
 		string word = ""; 
 		int num = 0; 
 		str = str + dl; 
