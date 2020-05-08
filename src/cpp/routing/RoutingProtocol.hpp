@@ -27,12 +27,12 @@ class Routing
         		{
         		//table_attributes t={s.top(),50,1};//let ttl=50,relay=1.0ie 100%
         			int cost=g.findCost(i,s.top());
-        			Routing_Table [i].push_back(table_attributes(s.top(),1,50,cost));
+        			Routing_Table [i].push_back(table_attributes(s.top(),0.8,50,cost));
         		
         		}
         		else
         		{
-        			Routing_Table [i].push_back(table_attributes(i,1,50,0));	//des = curr
+        			Routing_Table [i].push_back(table_attributes(i,0.8,50,0));	//des = curr
         		
         		}
         
