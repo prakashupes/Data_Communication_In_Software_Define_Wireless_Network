@@ -43,19 +43,31 @@ class Controller
 	
 	void genrateLog()
 	{
-		table::out<<"id  Next_hope  reliability TTL  Cost"<<endl;
+		table::out<<"id  Next_hope  reliability  TTL   Cost"<<endl;
+		
+		/********Variables used to proper output******/
+		int f,n,t,c;
+		float r;
 		for(auto x:Routing_Table)
 		{
 		
-			cout<<"Routing table for msg_id "<<x.first<<endl;
+			log::out<<"Routing table for msg_id "<<x.first<<endl;
 			
 			auto y=(x.second);
 			for(auto z: y)
 			{
 				auto v=(z.second);
-		table::out<<z.first<<"         "<<v[0].nextHope<<"        "<<v[0].relay<<"      "<<v[0].ttl<<"      "<<v[0].cost<<endl;
+				f=z.first;
+				n=v[0].nextHope;//r=v[0].relability;t=v[0].ttl;c=v[0].cost;
+				if(f>9) table::out<<f<<"        ";
+				else 	table::out<<f<<"         ";
+				if(n>9) table::out<<n<<"        ";
+				else 	table::out<<n<<"         ";
+				
+				
+		
 			
-			cout<<z.first<<"         "<<v[0].nextHope<<"        "<<v[0].relay<<"      "<<v[0].ttl<<"      "<<v[0].cost<<endl;
+			table::out<<v[0].relability<<"      "<<v[0].ttl<<"      "<<v[0].cost<<endl;
 			
 			
 			}

@@ -103,8 +103,8 @@ int main()
     		
     		packet_queue=m1.split_into_packet();
     		int packets_for_curr_messgae=packet_queue.size();
-    		cout<<packets_for_curr_messgae<<" packets created for message "<<msgArray[message_index]<<" id :"<<m1.message_id;
-    		log::out<<packets_for_curr_messgae<<" packets created for message "<<msgArray[message_index]<<" id :"<<m1.message_id;
+    		cout<<packets_for_curr_messgae<<" packets created for message "<<msgArray[message_index]<<" id :"<<m1.message_id<<endl;
+    		log::out<<packets_for_curr_messgae<<" packets created for message "<<msgArray[message_index]<<" id :"<<m1.message_id<<endl;
     		
     		total_packets+=packet_queue.size();
 		//cout<<"Total "<<total_packets<<" packets created..."<<endl;
