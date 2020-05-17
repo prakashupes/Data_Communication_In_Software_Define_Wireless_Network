@@ -7,7 +7,7 @@
 g++ Driver.cpp
 ```
 ```
-./a.out
+.../a.out
 ```
 ### Manual
 https://docs.google.com/document/d/1ySp4aeQqzpLyn_1q4TFlcX5_H3jPC75-7d43Mm6HJI0/edit?usp=sharing
