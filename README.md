@@ -1,6 +1,6 @@
 # Data_Communication_In_Software_Define_Wireless_Network
 ### Steps to run Project:
->1. clone [Data_Communication_In_Software_Define_Wireless_Network](https://github.com/prakashupes/Data_Communication_In_Software_Define_Wireless_Network.git) to your local system.
+1. clone [Data_Communication_In_Software_Define_Wireless_Network](https://github.com/prakashupes/Data_Communication_In_Software_Define_Wireless_Network.git) to your local system.
 From terminal:
 1). go inside project_direc/src/cpp/
 2)  open terminal from here
