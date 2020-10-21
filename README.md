@@ -1,11 +1,10 @@
-# Data_Communication_In_Software_Define_Wireless_Network
+# Data_Communication_In_Software_Define_Network
 ### Steps to run Project:
 1. clone [Data_Communication_In_Software_Define_Wireless_Network](https://github.com/prakashupes/Data_Communication_In_Software_Define_Wireless_Network.git) to your local system.
-From terminal:
-1). go inside project_direc/src/cpp/
-2)  open terminal from here
-3)  run:  g++ -std=c++11 Driver.cpp -pthread -o output
-4)  ./output
+
+**Open terminal:**
+1). go inside project_direc/developer tools/
+2)  use ```bash run.sh```
 
 From IDE:
 1) go inside project_direc/src/cpp/
