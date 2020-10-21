@@ -1,15 +1,15 @@
 # Data_Communication_In_Software_Define_Network
 ### Steps to run Project:
-1. clone [Data_Communication_In_Software_Define_Wireless_Network](https://github.com/prakashupes/Data_Communication_In_Software_Define_Wireless_Network.git) to your local system.
+* Clone [Data_Communication_In_Software_Define_Wireless_Network](https://github.com/prakashupes/Data_Communication_In_Software_Define_Wireless_Network.git) to your local system.
 
-**Open terminal:**
-1). go inside project_direc/developer tools/
-2)  use ```bash run.sh```
+* **Open terminal:**
+  * Go inside project_direc/developer tools/
+  * Use ```bash run.sh```
 
-From IDE:
-1) go inside project_direc/src/cpp/
-2) run file Driver.cpp
-Note: Log file is only for ubuntu. so if you use IDE then you will not be able to see log and routing table.
+**From IDE:**
+ * Go inside project_direc/src/cpp/
+ * Run file Driver.cpp
+*Note: Log file is only for ubuntu. so if you use IDE then you will not be able to see log and routing table.*
 ### Manual
 https://docs.google.com/document/d/1ySp4aeQqzpLyn_1q4TFlcX5_H3jPC75-7d43Mm6HJI0/edit?usp=sharing
 
