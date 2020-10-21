@@ -13,3 +13,10 @@ From IDE:
 Note: Log file is only for ubuntu. so if you use IDE then you will not be able to see log and routing table.
 ### Manual
 https://docs.google.com/document/d/1ySp4aeQqzpLyn_1q4TFlcX5_H3jPC75-7d43Mm6HJI0/edit?usp=sharing
+
+## Analysis:
+**Evaluation:**
+  **Pocket Delivery Ratio (PDR)** = (total received pocket / total sent)
+  **Throughput** = Packet transmitted / time
+  
+ **E.g. For the simulation time of 100 msec the following result is obtained** 
