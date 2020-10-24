@@ -31,3 +31,6 @@
 <img src="https://user-images.githubusercontent.com/44925217/96758270-31992480-13f4-11eb-949e-63f69e19a734.jpeg" width="500" height="400">
 
 *Note: The obtained data might be deffer for your sytem beacuse we are using thread. So it is also possilbe that you can get diff results in each time run.*
+
+**Output Screen**
+
